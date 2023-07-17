@@ -28,6 +28,12 @@ jobs:
               run: |
                   rm .gitignore
                   git checkout --orphan preset
+                  git rm -rf presets
+                  git rm -rf index.js
+                  git rm -rf package.json
+                  git rm -rf README.md
+                  git rm -rf .github/workflows
+                  git rm -rf .gitignore
                   git add presets.json
                   git config --local user.email "github-actions[bot]@users.noreply.github.com"
                   git config --local user.name "github-actions[bot]"
