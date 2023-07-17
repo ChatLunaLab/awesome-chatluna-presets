@@ -27,7 +27,7 @@ jobs:
             - name: Commit presets.json
               run: |
                   rm .gitignore
-                  git checkout -b preset
+                  git checkout --orphan preset
                   git add presets.json
                   git config --local user.email "github-actions[bot]@users.noreply.github.com"
                   git config --local user.name "github-actions[bot]"
