@@ -27,7 +27,7 @@ jobs:
             - name: Commit presets.json
               run: |
                   rm .gitignore
-                  git checkout --orphan preset
+                  git checkout preset
                   git rm -rf presets
                   git rm -rf index.js
                   git rm -rf package.json
