@@ -18,14 +18,14 @@ jobs:
       - name: Build presets.json
         run: yarn build
       - name: Commit presets.json
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          REPO: github.com/ChatHubLab/awesome-chathub-presets
         run: |
           rm .gitignore
           git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
+          git config --global user.email 'action@github.com' 
           git checkout -b preset
           git add presets.json
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GH_TOKEN }}
-          branch: presets
+          git commit -m "Deploy $GITHUB_SHA"
+          git push --force --quiet "https://$GH_TOKEN@$REPO"
