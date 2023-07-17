@@ -1,0 +1,19 @@
+{
+  "name": "awesome-chathub-prompts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ChatHubLab/awesome-chathub-prompts.git",
+  "author": "dingyi222666 <dingyi222666@foxmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.5"
+  },
+  "scripts":{
+    "build": "node index.js"
+  }
+}
