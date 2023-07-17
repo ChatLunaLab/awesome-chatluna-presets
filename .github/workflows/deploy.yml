@@ -3,6 +3,13 @@ name: Deploy presets.json
 on:
     push:
         branches: [main]
+
+permissions:
+    contents: write
+    pull-requests: write
+    issues: read
+    packages: none
+
 jobs:
     deploy:
         runs-on: ubuntu-latest
