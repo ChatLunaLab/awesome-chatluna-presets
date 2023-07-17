@@ -1,4 +1,4 @@
-# awesone-chathub-prompts
+# awesome-chathub-presets
 
 本项目用于收集和分享 ChatHub 的各类预设。
 
