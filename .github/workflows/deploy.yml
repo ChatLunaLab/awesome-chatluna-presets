@@ -17,12 +17,15 @@ jobs:
         run: yarn install
       - name: Build presets.json
         run: yarn build
-      - name: Commit and push presets.json
+      - name: Commit presets.json
         run: |
           rm .gitignore
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           git checkout -b preset
           git add presets.json
-          git commit -m "Deploy ${GITHUB_SHA}"
-          git push origin preset --force
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          branch: presets
