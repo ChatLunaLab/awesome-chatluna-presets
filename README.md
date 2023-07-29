@@ -14,8 +14,6 @@
 
 4. 使用 `chathub.setpreset` 命令来设置为你下载的预设。
 
-> 我们即将推出官方的预设仓库 Koishi 插件，可直接搜索或下载你喜欢的预设，敬请期待。
-
 ## 编写预设
 
 请参考 [预设编写指南](https://chathub.dingyi222666.top/guide/preset-system/write-preset.html)。
