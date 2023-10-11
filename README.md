@@ -10,9 +10,9 @@
 
 2. 找到你的 Koishi 插件的安装目录，然后将下载的预设文件放入 `data/chathub/presets` 文件夹中。
 
-3. 使用 `chathub.listpreset` 命令，此时即可看到你新增的预设。
+3. 使用 `chathub.preset.list` 命令，此时即可看到你新增的预设。
 
-4. 使用 `chathub.setpreset` 命令来设置为你下载的预设。
+4. 使用 `chathub.room.set -p <preset>` 命令来设置为你下载的预设。
 
 ## 编写预设
 
