@@ -1,8 +1,8 @@
-# awesome-chathub-presets
+# awesome-chatluna-presets
 
-本项目用于收集和分享 ChatHub 的各类预设。
+本项目用于收集和分享 ChatLuna 的各类预设。
 
-需要配合 [ChatHub](https://chathub.dingyi222666.top/) 使用。
+需要配合 [ChatLuna](https://chatluna.dingyi222666.top/) 使用。
 
 ## 如何使用?
 
@@ -10,13 +10,13 @@
 
 2. 找到你的 Koishi 插件的安装目录，然后将下载的预设文件放入 `data/chathub/presets` 文件夹中。
 
-3. 使用 `chathub.preset.list` 命令，此时即可看到你新增的预设。
+3. 使用 `chatluna.preset.list` 命令，此时即可看到你新增的预设。
 
-4. 使用 `chathub.room.set -p <preset>` 命令来设置为你下载的预设。
+4. 使用 `chatluna.room.set -p <preset>` 命令来设置为你下载的预设。
 
 ## 编写预设
 
-请参考 [预设编写指南](https://chathub.dingyi222666.top/guide/preset-system/write-preset.html)。
+请参考 [预设编写指南](https://chatluna.dingyi222666.top/guide/preset-system/write-preset.html)。
 
 ## 分享预设
 
@@ -26,7 +26,7 @@
 
 ## 贡献者名单  
 
-<a href="https://github.com/ChatHubLab/awesome-chathub-presets/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ChatHubLab/awesome-chathub-presets" />
+<a href="https://github.com/ChatLunaLab/awesome-chathub-presets/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ChatLunaLab/awesome-chathub-presets" />
 </a>
 
