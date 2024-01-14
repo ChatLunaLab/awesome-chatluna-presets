@@ -12,7 +12,7 @@ async function main() {
         output.push({
             keywords: presetData.keywords,
             name: presetFile.replace(".yml", ""),
-            rawPath: `https://raw.githubusercontent.com/ChatHubLab/awesome-chathub-presets/main/presets/${presetFile}`,
+            rawPath: `https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/${presetFile}`,
         })
     }
 
