@@ -2,7 +2,7 @@
 
 本项目用于收集和分享 ChatLuna 的各类预设。
 
-需要配合 [ChatLuna](https://chatluna.dingyi222666.top/) 使用。
+需要配合 [ChatLuna](https://chatluna.chat/) 使用。
 
 ## 如何使用?
 
@@ -16,7 +16,7 @@
 
 ## 编写预设
 
-请参考 [预设编写指南](https://chatluna.dingyi222666.top/guide/preset-system/write-preset.html)。
+请参考 [预设编写指南](https://chatluna.chat/guide/preset-system/write-preset.html)。
 
 ## 分享预设
 
