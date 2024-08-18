@@ -1,5 +1,6 @@
 import { load } from "js-yaml"
 import fs from "fs/promises"
+import { relative } from "path"
 
 async function main() {
     const presetFiles = await fs.readdir("presets")
@@ -13,6 +14,7 @@ async function main() {
             keywords: presetData.keywords,
             name: presetFile.replace(".yml", ""),
             rawPath: `https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/${presetFile}`,
+            relativePath: `main/presets/${presetFile}`
         })
     }
 
