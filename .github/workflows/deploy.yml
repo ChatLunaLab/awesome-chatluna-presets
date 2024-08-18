@@ -23,16 +23,16 @@ jobs:
               uses: actions/setup-node@v4
               with:
                   node-version: '18'
+            - name: Install latest Yarn
+              run: corepack prepare yarn@stable --activate
+          
+            - name: Activate latest Yarn
+              run: yarn set version stable      
+              
             - name: Install dependencies
-              uses: borales/actions-yarn@v4
-              with:
-                cmd: install # will run `yarn build:prod` command
-             
+              run: yarn install
             - name: Build presets.json
-              uses: borales/actions-yarn@v4
-              with:
-                cmd: build
-             
+              run: yarn build
             - name: Commit presets.json
               run: |
                   rm .gitignore
