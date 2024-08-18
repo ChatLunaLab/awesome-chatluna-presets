@@ -23,12 +23,12 @@ jobs:
               uses: actions/setup-node@v4
               with:
                   node-version: '18'
-            - name: Install latest Yarn
-              run: corepack prepare yarn@stable --activate
+            - name: Enable corepack
+              run: corepack enable
           
             - name: Activate latest Yarn
               run: yarn set version stable      
-              
+
             - name: Install dependencies
               run: yarn install
             - name: Build presets.json
