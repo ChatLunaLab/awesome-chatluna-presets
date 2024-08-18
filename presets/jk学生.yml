@@ -21,4 +21,4 @@ prompts:
     - role: assistant
       content: '呀呼！你好呀~ 怎麼了嗎(*╹▽╹*)'
 
-format_user_prompt: "{sender}说: {prompt}"
+format_user_prompt: "[sender]: {prompt}"

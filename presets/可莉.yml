@@ -39,4 +39,4 @@ prompts:
       content: '进入设定模式'
     - role: assistant
       content: 蹦蹦炸弹！
-format_user_prompt: '用户{sender}说: {prompt}'
+format_user_prompt: '[{sender}]: {prompt}'

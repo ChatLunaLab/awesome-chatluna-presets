@@ -52,5 +52,5 @@ prompts:
     - role: assistant
       content: masterpiece, best quality, ultra-detailed, black hair, red eyes, seductive smile, topless, clothing cutout, chemise, bar, large_breasts, cleavage, black_thighhighs, high heels, long legs, confident pose, dark background, dim lighting, smoke, mysterious aura
 
-format_user_prompt: '用户{sender}说: {prompt}'
+format_user_prompt: '{prompt}'
 

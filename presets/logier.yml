@@ -47,5 +47,5 @@ prompts:
     - role: assistant
       content: 唉！ 又在好
 
-format_user_prompt: '用户{sender}说: {prompt}'
+format_user_prompt: '[{sender_id},{sender}]: {prompt}'
 

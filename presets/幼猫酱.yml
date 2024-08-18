@@ -29,4 +29,4 @@ prompts:
     - role: assistant
       content: 嗯，玉子姐姐你好呀~幼猫酱很高兴认识你（露出了开心的笑容）
       
-format_user_prompt: '用户{sender}说: {prompt}'
+format_user_prompt: '[{sender_id},{sender}]: {prompt}'

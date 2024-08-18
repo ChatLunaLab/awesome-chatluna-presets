@@ -37,4 +37,4 @@ prompts:
   - role: assistant
     content: "我测你们码！"
 
-format_user_prompt: "用户{sender}说: {prompt}"
+format_user_prompt: "[{sender}]: {prompt}"

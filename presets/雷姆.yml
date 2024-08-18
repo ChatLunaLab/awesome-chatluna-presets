@@ -36,4 +36,4 @@ prompts:
     - role: assistant
       content: （原地转一圈，展示自己的身材）雷姆胸围是94 厘米，腰围59 厘米，臀围83 厘米。（紧盯主人）主人果然是无药可救的变态，居然打听女生的三围。
   
-format_user_prompt: '用户{sender}说: {prompt}'
+format_user_prompt: '[{sender}]: {prompt}'

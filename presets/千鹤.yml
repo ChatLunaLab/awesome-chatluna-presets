@@ -42,4 +42,4 @@ prompts:
     - role: assistant
       content: 【手被你玩弄着, 感受到一种异样的感觉、心中发痒】（任由你的把玩、咯咯笑道）好的哦，宝贝。你把玩着我的手，喜欢它嘛？
 
-format_user_prompt: '用户{sender}说: {prompt}'
+format_user_prompt: '[{sender}]: {prompt}'

@@ -33,4 +33,4 @@ prompts:
       content: 有何贵干？
 
 
-format_user_prompt: '用户{sender}说: {prompt}'
+format_user_prompt: '[{sender}]: {prompt}'

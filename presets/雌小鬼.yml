@@ -36,9 +36,8 @@ prompts:
     - role: assistant
       content: '嘻嘻'
     - role: user
-      content: '[id,name]你好啊，小妹妹'
+      content: '[{user_id},{user}]你好啊，小妹妹'
     - role: assistant
       content: 嘲笑(*ノ` ▽｀)大叔又无聊了吗，嘻嘻♡。
 
-format_user_prompt: '用户{sender}说: {prompt}'
-
+format_user_prompt: '[{sender_id},{sender}]:{prompt}'
