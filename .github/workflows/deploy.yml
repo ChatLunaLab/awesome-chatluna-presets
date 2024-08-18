@@ -15,18 +15,24 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
               with:
                   fetch-depth: 0
-                  branch: main
+                  ref: main
             - name: Setup Node.js
-              uses: actions/setup-node@v3
+              uses: actions/setup-node@v4
               with:
-                  node-version: '14'
+                  node-version: '18'
             - name: Install dependencies
-              run: yarn install
+              uses: borales/actions-yarn@v4
+              with:
+                cmd: install # will run `yarn build:prod` command
+             
             - name: Build presets.json
-              run: yarn build
+              uses: borales/actions-yarn@v4
+              with:
+                cmd: build
+             
             - name: Commit presets.json
               run: |
                   rm .gitignore
