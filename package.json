@@ -15,7 +15,6 @@
     "@types/node": "^22.4.0"
   },
   "scripts": {
-    "build": "node index.js"
-  },
-  "packageManager": "yarn@4.3.1"
+    "build": "bun run index.ts"
+  }
 }

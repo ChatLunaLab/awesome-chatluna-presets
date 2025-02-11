@@ -6,13 +6,23 @@
 
 ## 如何使用?
 
-1. 前往 [presets](/presets/) 文件夹，去下载你喜欢的预设。
+### 针对主插件的预设
+
+1. 前往 [presets](/presets/chatluna) 文件夹，去下载你喜欢的预设。
 
 2. 找到你的 Koishi 插件的安装目录，然后将下载的预设文件放入 `data/chathub/presets` 文件夹中。
 
 3. 使用 `chatluna.preset.list` 命令，此时即可看到你新增的预设。
 
 4. 使用 `chatluna.room.set -p <preset>` 命令来设置为你下载的预设。
+
+### 针对伪装的预设
+
+1. 前往 [presets](/presets/chatluna-character) 文件夹，去下载你喜欢的预设。
+
+2. 找到你的 Koishi 插件的安装目录，然后将下载的预设文件放入 `data/chathub/character/presets` 文件夹中。
+
+3. 前往伪装的插件页，即可看到你新增的预设。
 
 ## 编写预设
 
