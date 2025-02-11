@@ -31,7 +31,9 @@ jobs:
                   rm .gitignore
                   git checkout --orphan preset
                   git rm -rf presets
-                  git rm -rf index.js
+                  git rm -rf index.ts
+                  git rm -rf types.ts
+                  git rm -rf bun.lock
                   git rm -rf package.json
                   git rm -rf README.md
                   git rm -rf .github/workflows
