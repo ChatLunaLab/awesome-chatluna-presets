@@ -25,7 +25,7 @@ jobs:
             - name: Install dependencies
               run: bun install
             - name: Build presets.json
-              run: bun build
+              run: bun run build
             - name: Commit presets.json
               run: |
                   rm .gitignore
