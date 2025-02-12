@@ -14,6 +14,8 @@ async function main() {
 
     const cachePresetData = await readCachePresetData();
 
+    console.log("cachePresetData", cachePresetData);
+
     const output: PresetData[] = await Promise.all(
         presetFiles.map((presetFile) =>
             readPresets(presetFile, cachePresetData)
@@ -108,7 +110,6 @@ async function readAIDescription(
             ],
             response_format: { type: "json_object" },
             temperature: 1.2,
-            top_p: 0.9,
         }),
     }).then((res) => res.json());
 
@@ -176,10 +177,12 @@ async function readCachePresetData(): Promise<CachePresetData[]> {
     try {
         data = await fs.readFile("cache-presets.json", "utf-8");
         return JSON.parse(data) as CachePresetData[];
-    } catch (e) {}
+    } catch (e) {
+        console.warn("Failed to read cache-presets.json, using empty array", e);
+    }
 
     try {
-        return fetch(
+        return await fetch(
             "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/refs/heads/preset/cache-presets.json",
             {
                 headers: {
@@ -189,7 +192,7 @@ async function readCachePresetData(): Promise<CachePresetData[]> {
             }
         ).then((res) => res.json());
     } catch (e) {
-        return fetch(
+        return await fetch(
             "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/refs/heads/main/cache-presets.json",
             {
                 headers: {
