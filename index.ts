@@ -32,6 +32,8 @@ async function readPresets(
     dir: string,
     cachePresets: CachePresetData[]
 ): Promise<PresetData[]> {
+    const isRunningOnGitHub = process.env.GITHUB_ACTIONS === "true";
+
     const output: PresetData[] = [];
     const files = await fs.readdir(dir);
     for (const presetFile of files) {
@@ -53,7 +55,10 @@ async function readPresets(
             (preset) => preset.rawPath === rawPath
         );
 
-        if (cachePresetData && cachePresetData.sha1 === (await sha1(preset))) {
+        if (
+            cachePresetData &&
+            (isRunningOnGitHub || cachePresetData.sha1 === (await sha1(preset)))
+        ) {
             current = Object.assign(current, {
                 description: cachePresetData.description,
                 rating: cachePresetData.rating,
