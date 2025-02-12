@@ -8,6 +8,7 @@ import {
     MainPreset,
     PresetData,
 } from "./types";
+import crypto from "crypto";
 
 async function main() {
     const presetFiles = ["presets/chatluna", "presets/chatluna-character"];
@@ -59,11 +60,6 @@ async function readPresets(
                 tags: cachePresetData.tags,
             });
         } else {
-            console.log(
-                cachePresetData,
-                cachePresetData?.sha1,
-                await sha1(preset)
-            );
             await retry(async () => {
                 current = Object.assign(current, {
                     ...(await readAIDescription(preset, cachePresets, rawPath)),
@@ -146,7 +142,13 @@ function parseJSON(str: string): {
     tags: string[];
 } {
     try {
-        return JSON.parse(str);
+        const result = JSON.parse(str);
+
+        if (result.rating && result.description && result.tags) {
+            return result;
+        }
+
+        throw new Error("Invalid JSON string: " + str);
     } catch (e) {
         let match = str.match(/```json([\s\S]*?)```/);
         if (match) {
@@ -164,14 +166,9 @@ function parseJSON(str: string): {
 }
 
 async function sha1(str: string) {
-    const buffer = new TextEncoder().encode(str);
-    const hashBuffer = await crypto.subtle.digest("SHA-1", buffer);
-    const hashArray = Array.from(new Uint8Array(hashBuffer));
-    const hashHex = hashArray
-        .map((bytes) => bytes.toString(16).padStart(2, "0"))
-        .join("");
-
-    return hashHex;
+    const hash = crypto.createHmac("sha256", "chatluna");
+    hash.update(str);
+    return hash.digest("hex");
 }
 
 async function readCachePresetData(): Promise<CachePresetData[]> {
@@ -180,9 +177,7 @@ async function readCachePresetData(): Promise<CachePresetData[]> {
     try {
         data = await fs.readFile("cache-presets.json", "utf-8");
         return JSON.parse(data) as CachePresetData[];
-    } catch (e) {
-        console.warn("Failed to read cache-presets.json, using empty array", e);
-    }
+    } catch (e) {}
 
     try {
         return await fetch(
@@ -203,7 +198,14 @@ async function readCachePresetData(): Promise<CachePresetData[]> {
                         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
                 },
             }
-        ).then((res) => res.json());
+        )
+            .then((res) => res.json())
+            .catch((e) => {
+                console.warn(
+                    "Failed to read cache-presets.json, using empty array"
+                );
+                return [];
+            });
     }
 }
 
@@ -247,7 +249,7 @@ const PROMPT = `
 {
   "rating": [根据评分标准计算1-5的小数],
   "description": [50-100字的角色特征概括，需包含：出身背景/性格特质/特殊能力/身份定位/语言风格],
-  "tags": [2-5个中文短语标签，要求：反映核心特征/使用游戏术语或圈内黑话/避免通用词汇]
+  "tags": [2-5个中文短语标签，要求：反映预设的特征/通用词汇]
 }
 
 ## 必须遵守的规则
@@ -280,17 +282,16 @@ const PROMPT = `
    - 包含角色标志性台词关键词
 Ⅲ 标签生成标准
 1. 组合规则：
-   - 身份标签：【组织名】+职位（例：罗德岛指挥官）
-   - 特征标签：矛盾属性组合（例：战斗型萝莉）
-   - 梗文化标签：玩家社群通用黑话（例：驴外四女友）
+   - 身份标签/特征标签
+   - 游戏标签/梗文化标签
+   - 预设类型标签
    - 禁忌标签：禁止出现政治/性别/种族敏感词
 
 2. 优先级：
    (1) 官方设定关键词 > (2) 玩家二创热词 > (3) 角色外观特征
    
 3. 格式要求：
-   - 中文四字短语优先
-   - 使用"型""式""级"等量化词
+   - 中文二次短语优先
    - 包含至少1个游戏内专有名词   
 `;
 
