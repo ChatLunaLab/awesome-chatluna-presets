@@ -9,6 +9,11 @@ import {
     PresetData,
 } from "./types";
 import crypto from "crypto";
+import { exec } from 'child_process';
+import { promisify } from 'util';
+
+const execAsync = promisify(exec);
+
 
 async function main() {
     const presetFiles = ["presets/chatluna", "presets/chatluna-character"];
@@ -36,6 +41,13 @@ async function readPresets(
 
     const output: PresetData[] = [];
     const files = await fs.readdir(dir);
+
+    const modifiedTimes = await Promise.all(
+        files.map(async (file) => {
+            return [file, await getGitLastModifiedDate(`${dir}/${file}`)] as const;
+        })
+    );
+
     for (const presetFile of files) {
         const preset = await fs.readFile(`${dir}/${presetFile}`, "utf-8");
         const presetData = load(preset) as MainPreset | CharacterPreset;
@@ -48,6 +60,7 @@ async function readPresets(
             type: dir === "presets/chatluna" ? "main" : "character",
             name: presetFile.replace(".yml", ""),
             rawPath,
+            modified: modifiedTimes.find(([file]) => file === presetFile)![1],
             relativePath: `main/${dir}/${presetFile}`,
         };
 
@@ -78,6 +91,24 @@ async function readPresets(
     return output;
 }
 
+async function getGitLastModifiedDate(filePath: string): Promise<number> {
+    try {
+        // Use double quotes for Windows compatibility
+        const command = `git log -1 --format="%ad" --date=iso-strict "${filePath}"`;
+        
+        // Execute the command
+        const { stdout } = await execAsync(command);
+
+        // Trim any extra whitespace or newlines from the output
+        const result = stdout.trim();
+
+        // Transform the result to timestamp
+        return new Date(result).getTime();
+    } catch (error) {
+        console.error(`Error getting last modified date for file ${filePath}:`, error);
+        throw error;
+    }
+}
 async function readAIDescription(
     preset: string,
     cachePresets: CachePresetData[],

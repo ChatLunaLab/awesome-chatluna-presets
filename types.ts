@@ -187,6 +187,7 @@ export interface CharacterPreset {
 
 export interface PresetData {
     name: string;
+    modified: number;
     keywords: string[];
     rawPath: string;
     description?: string;
