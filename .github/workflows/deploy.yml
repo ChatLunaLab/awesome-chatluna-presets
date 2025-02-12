@@ -20,10 +20,11 @@ jobs:
                   fetch-depth: 0
                   ref: main
             - name: Create .env
+            # echo "BASE_URL=${{ vars.BASE_URL }}" >> .env
               run: |
                   echo "API_KEY=${{ secrets.API_KEY }}" > .env
-                  echo "BASE_URL=${{ vars.BASE_URL }}" >> .env
-                  echo "MODEL=${{ vars.MODEL }}" >> .env      
+                  echo "MODEL=${{ vars.MODEL }}" >> .env
+                  echo "GITHUB_ACTIONS=true" >>.env      
             - name: Setup Bun.js
               uses: oven-sh/setup-bun@v2
             - name: Install dependencies
