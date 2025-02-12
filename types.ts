@@ -189,6 +189,27 @@ export interface PresetData {
     name: string;
     keywords: string[];
     rawPath: string;
+    description?: string;
+    rating?: number;
+    tags?: string[];
     relativePath: string;
     type: "main" | "character";
+}
+
+export interface CachePresetData {
+    rawPath: string;
+    description: string;
+    rating: number;
+    tags: string[];
+    sha1: string;
+}
+
+declare global {
+    namespace NodeJS {
+        interface ProcessEnv {
+            API_KEY: string;
+            BASE_URL: string;
+            MODEL: string;
+        }
+    }
 }

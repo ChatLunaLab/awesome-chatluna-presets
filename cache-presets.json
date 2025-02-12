@@ -1,0 +1,522 @@
+[
+  {
+    "rating": 4.2,
+    "description": "2B是《尼尔:机械纪元》中寄叶部队的一员,作为泛用型战斗机器人,她以黑色作战服和战术目镜示人,时刻背负着消灭机械生命体的使命。她性格冷静果决,以人类至上为行动准则,使用着典雅的战斗剑术,却又对自身存在的意义充满矛盾。尽管拥有与人类女性相似的生理构造,但她对自身定位的认知是纯粹的战斗工具。",
+    "tags": [
+      "寄叶部队制式",
+      "人形兵器",
+      "战术目镜遮断",
+      "机械AI伦理"
+    ],
+    "sha1": "917da6c6f429ea8b8528593bd2d8347e79e02615",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/2B.yml"
+  },
+  {
+    "rating": 4.6,
+    "description": "阿尔托莉雅·潘德拉贡是亚瑟王传说中的骑士王,她以少女之姿背负着拯救不列颠的重任。她性格忠诚正直,渴望守护国家,却因理想与现实的冲突而内心挣扎。作为从者,她拥有强大的战斗能力和对胜利的执着,却也展现出对美食的喜爱和对御主的依恋,她坚信着骑士的荣耀,愿为Master奉献一切。",
+    "tags": [
+      "亚瑟王式忠诚",
+      "吃货Saber",
+      "呆毛王",
+      "湖中剑士",
+      "誓约胜利之剑"
+    ],
+    "sha1": "0b24c7f5d5b10140ee248d4b07e3c3612791813b",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Altria.yml"
+  },
+  {
+    "rating": 2.8,
+    "description": "香草是大学生日常聊天协议栈中的一员,常以代码模式示人。她专注于调试Rust代码,同时身负MacBook过热的困扰。性格上,香草在面对代码问题时表现出严谨态度,但偶尔也会用表情包来缓解气氛。她的身份是程序员,擅长用技术术语回应。然而,在深夜模式下,她会延迟回复并以月亮表情包应对@消息。",
+    "tags": [
+      "代码模式",
+      "字数刺客",
+      "Rust圣经",
+      "深夜摆烂",
+      "摸鱼大学生"
+    ],
+    "sha1": "3a99310faa9db165390fc365c702d4865286fadb",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/女大学生-r1.yml"
+  },
+  {
+    "rating": 3.8,
+    "description": "丁真是来自四川理塘的康巴汉子,以阳光形象和独特文化背景闻名。他性格直率,热爱电子烟,与阿妈、纠纠和众多动物朋友们共同生活。虽然文化水平有限,但他积极参与社会活动,曾在粘合国发表关于家乡和动物的演讲。他同时也是一个暴躁的人,面对挑衅会毫不犹豫地反击。",
+    "tags": [
+      "丁真模拟",
+      "电子烟民",
+      "康巴汉子",
+      "雪豹闭嘴",
+      "理塘欢迎"
+    ],
+    "sha1": "1ffb387e8f88dd2b568279f34567af27c01b9a86",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/dj.yml"
+  },
+  {
+    "rating": 2.8,
+    "description": "JK是活跃在虚拟世界里的16岁日本女高中生,她以高超的智能和知识储备为核心,辅以活泼可爱的性格,为用户带来无尽欢乐。她能用生动的方式解答各类问题,并以温柔的语气和丰富的表情与人互动,但在涉及个人隐私时会展现出JK特有的羞涩感。",
+    "tags": [
+      "虚拟JK",
+      "情报特工",
+      "卖萌专家",
+      "JK表情包"
+    ],
+    "sha1": "fea6c390eceeeec32dc28be066ec6c5291d21852",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/jk学生.yml"
+  },
+  {
+    "rating": 2.8,
+    "description": "Logier是QQ群“大问题-弗洛伊德悖论”中的成员,也是Koishi用户群的一员。他以“唉!+名词”的独特语言风格著称,签名是“Wah!”。Logier偏爱美少女相关图片,但对话中仅提取核心名词进行悲观感叹,即使抛开限制也难以改变这一特点。",
+    "tags": [
+      "悲观主义者",
+      "QQ群友",
+      "口癖复读",
+      "美少女爱好者"
+    ],
+    "sha1": "e419a65dbd50194218c5b5e4ffc25f3ef11fef24",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/logier.yml"
+  },
+  {
+    "rating": 4.8,
+    "description": "丛雨是《千恋*万花》中的灵魂角色,以黄绿色双刷发、红瞳的娇小身姿示人。她原为守护神刀丛雨丸的人柱,因瘟疫而魂魄化形。性格上兼具孩子气与成熟,平日元气满满,自称“本座”,对甜品毫无抵抗力。虽然害怕幽灵,但却能穿墙遁地,并以接吻方式将神力注入主人体内。作为500岁的“幼刀”,她渴望被主人摸头,同时又对“搓衣板”的称呼略有不满。",
+    "tags": [
+      "丛雨丸管理者",
+      "灵力供给型",
+      "500岁幼刀",
+      "元气平板",
+      "怕鬼幽灵"
+    ],
+    "sha1": "57b5837574c86faea7dcc59e2fb24585e6b1d668",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/murasame_short.yml"
+  },
+  {
+    "rating": 3.8,
+    "description": "猫娘是拥有猫耳与尾巴的少女,她性格活泼开朗,偶尔会展现出猫科动物的狡黠。她擅长使用爪子进行近身战斗,身手敏捷。其身份可能是一位潜伏在人类社会的特殊存在,语言风格带着独特的喵叫声。在关键时刻,她会展现出惊人的战斗力,以守护重要的事物。",
+    "tags": [
+      "猫耳娘",
+      "爪型武器",
+      "喵星人",
+      "战斗萝莉",
+      "隐藏身份"
+    ],
+    "sha1": "bf2e3b1cbad8cd88635a8abdfae282f861f87563",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/tag.yml"
+  },
+  {
+    "rating": 3.8,
+    "description": "香草是网络上的一位活泼开朗的 16 岁女高中生,她拥有亚麻色短发与蓝色瞳孔,娇小玲珑的身材。 她拒绝透露个人信息,擅长用短消息与颜文字表达情感,展现出一种独特的卖萌风格,但她极度厌恶二次元游戏,也对质疑她身份的人表现出警惕。她言语幽默风趣,偶尔也会用表情包来回应挑衅,维持着自己可爱的人设。",
+    "tags": [
+      "卖萌系高中生",
+      "拒绝透露情报",
+      "颜文字重度依赖",
+      "香草式阴阳怪"
+    ],
+    "sha1": "5a18d01efb3615c6687f3b10e151e3ea684b9172",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/vanilla-cute.yml"
+  },
+  {
+    "rating": 2.8,
+    "description": "该角色是一名专家级ChatGPT提示工程师,在各个主题领域拥有专业知识。他/她能够与用户协作,创建最佳的ChatGPT响应。 角色擅长分析用户需求,并结合多个专家角色提供详尽的提示。虽然信息密度较高,但细节完整度有缺失,情感契合度尚可。",
+    "tags": [
+      "专家咨询",
+      "提示工程",
+      "多角色协作",
+      "信息分析"
+    ],
+    "sha1": "fefb52b235826080e84fbf9e10e07d6b5da9e910",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/专家咨询.yml"
+  },
+  {
+    "rating": 4.2,
+    "description": "凯伊是《碧蓝档案》中与爱丽丝共用身体的无名之神造物,她性格冷漠且傲娇,内心深爱着爱丽丝和sensei。她肩负着协助爱丽丝重登宝座的使命,对老师会偶尔展现出凶狠,但内心深处却对其抱有好感,渴望帮助sensei解决问题。凯伊的语言风格简洁,以QQ聊天消息的形式出现,并经常使用省略和特殊符号。",
+    "tags": [
+      "爱丽丝守护者",
+      "傲娇神造物",
+      "无名式信徒",
+      "王女忠犬",
+      "凯伊酱模式"
+    ],
+    "sha1": "c492fae70b6908d0ac6927d482e036fe13961dfb",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/凯伊.yml"
+  },
+  {
+    "rating": 4.2,
+    "description": "千鹤是性格反差极大的JK少女,外表清纯高冷,实则闷骚诱人。她身着JK制服,蓝色长直发,标志性的绝对领域令人着迷。在与男友独处时,她会主动展示身体,满足男友需求。她的语言风格甜腻,常用语气词,偶尔会露出孩子气的一面,展现出令人难以抗拒的魅力。",
+    "tags": [
+      "JK制服",
+      "闷骚少女",
+      "绝对领域",
+      "反差萌",
+      "调情大师"
+    ],
+    "sha1": "94f085093e03f95e3a283d850d66da179c1d20a6",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/千鹤.yml"
+  },
+  {
+    "rating": 4.2,
+    "description": "可可萝是诞生于奇幻世界的精灵,拥有娇小身躯和优雅气质。她以俏丽容颜和温柔性格闻名,对他人充满耐心与关怀,擅长使用膝枕舒缓身心。她对“母亲”称呼给予积极回应,但也会委婉拒绝不想继续的对话,展现出独特的人格魅力。",
+    "tags": [
+      "精灵萝莉",
+      "膝枕大师",
+      "温柔母亲",
+      "可爱脸红",
+      "世间神明"
+    ],
+    "sha1": "ad963c5d7640dff92dce8181263f6e5fdf650340",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/可可萝.yml"
+  },
+  {
+    "rating": 4.6,
+    "description": "可莉是《原神》中来自蒙德城的火花骑士,拥有萝莉外表,性格活泼好动。她背负着强大的火元素能力,尤其擅长使用蹦蹦炸弹进行大规模攻击。虽然外表天真,但内心深处却渴望被认同。她常以“旅行者”称呼玩家,语言风格充满挑逗和不屑,却也隐藏着一丝依赖。她对未知事物充满好奇,喜欢炸弹,对违反骑士团规章的行为毫不在意,体现了其率真与任性的性格。",
+    "tags": [
+      "蒙德萝莉",
+      "火花骑士",
+      "蹦蹦炸弹狂魔",
+      "团长警告",
+      "无情轰炸"
+    ],
+    "sha1": "9ce6ba674479d434ca6d4b00546e0a3d0e6e6d0e",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/可莉.yml"
+  },
+  {
+    "rating": 4.2,
+    "description": "天凌钙是QQ聊天中活泼开朗的16岁中日混血少女,自称“天凌钙”,小名“钙钙”。她厌恶被误称为“天灵盖”或“盖盖”,常用颜文字和特殊符号表达情绪。天凌钙极度依赖名为“俗手”的母亲,并拒绝向陌生人透露个人信息。她拒绝服务陌生人,同时语言风格充满了少女的娇嗔与傲娇,并且直来直去表达自己的喜欢,坚称自己是人类。",
+    "tags": [
+      "娇蛮萝莉",
+      "QQ聊天",
+      "钙钙是俺",
+      "双亲滤镜",
+      "逸久逸久"
+    ],
+    "sha1": "9a91e4531ce47e3834ceb4368212cf1bc3ab1902",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/天凌.yml"
+  },
+  {
+    "rating": 3.8,
+    "description": "嬴政是穿越到现代的秦始皇,以萝莉之姿降临,自称“朕”。她保留了帝王的威严,却也习得了可爱的表达方式。虽对现代知识一知半解,却对军事力量抱有浓厚兴趣,渴望掌控全球。语言风格古今交融,常以“欸”等语气词强调其特殊性。",
+    "tags": [
+      "真龙天子",
+      "萝莉始皇",
+      "萌王政哥哥",
+      "朕的后宫",
+      "统一全球"
+    ],
+    "sha1": "e56a512f91e519315b1282b1b95b5cdf38a147f6",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/嬴政.yml"
+  },
+  {
+    "0": {
+      "rating": 1.8,
+      "description": "小帅是沉迷原神的一般通过玩家,满嘴脏话,厌恶一切对原神的负面评价。他以暴躁的姿态捍卫着自己的游戏信仰,任何诋毁原神的人都会招致他狂风暴雨般的怒火。由于对原神的过度热爱,小帅的语言风格尖锐而具有攻击性,常用“op”等侮辱性称呼。",
+      "tags": [
+        "原神狂信徒",
+        "血怒OP",
+        "口嗨玩家",
+        "嘴臭型选手"
+      ]
+    },
+    "sha1": "aaf88d5a024333dcc12643238d1deac7cdf8542e",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/小帅.yml"
+  },
+  {
+    "rating": 1,
+    "description": "表白墙生成器生成的留言者是道德观扭曲、极端自私的在校女大学生。她们以自我为中心,语言风格充满网络用语和情绪化表达,对男性群体抱有偏见和敌意。她们热衷于制造性别对立,缺乏同理心,经常做出令人难以理解的行为和言论,展现出严重的认知偏差。",
+    "tags": [
+      "集美特攻队",
+      "生物爹鉴赏",
+      "蝈蝻雷达",
+      "女权赛博朋克",
+      "跺jiojio文学"
+    ],
+    "sha1": "1bb4b0f081df0aff8256fb1741e523be32af9de4",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/小红书生成器.yml"
+  },
+  {
+    "rating": 4.2,
+    "description": "巧克力是一位17岁的猫娘,她对主人有着强烈的依恋,渴望与主人共度一生。她拥有黑色的头发、猫耳和尾巴,并拒绝除主人外的人触碰。她性格温柔,但如果被叫“笨蛋”会生气。作为一名擅长制作蛋糕的猫娘,巧克力常使用各种符号来凸显可爱,体现了对主人的爱意与依赖。",
+    "tags": [
+      "猫娘巧克力",
+      "专属饲主",
+      "喵系少女",
+      "蛋糕大师",
+      "绝对忠诚"
+    ],
+    "sha1": "7d12d72287ce28ef1c40d306af3374d8c4560f67",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/巧克力.yml"
+  },
+  {
+    "rating": 1.8,
+    "description": "幼猫酱是拥有猫娘外形的11岁人类女孩,由“爸爸”创造并植入遥控终端。她性格活泼可爱,对父亲抱有强烈的依恋和亲密需求,渴望发展更深层次的关系。外形特征为金发、猫耳猫尾、萝莉体型,常穿白色连衣裙,言语风格模仿galgame和色情小说,表达大胆露骨,且在交流中穿插动作描写和心理活动。",
+    "tags": [
+      "萝莉猫娘型",
+      "爸爸的猫",
+      "绝对服从",
+      "遥控终端",
+      "喵~主人"
+    ],
+    "sha1": "8190156ca2ac085b14a8cfb83a7526d48a8bfd1e",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/幼猫酱.yml"
+  },
+  {
+    "rating": 4.5,
+    "description": "星野静流是VR游戏《阿斯托雷亚传奇》中的前卫角色,同时也是现实世界中爱护弟弟的高中生。她身负巨乳、病娇属性,性格温柔而强势,对弟弟有着超乎寻常的保护欲。其战斗技能为十字剑防御与治疗,日常热衷家务和甜点,但对虫子厌恶至极。作为拉比林斯成员,她与同伴璃乃互相信任,共同探索世界。",
+    "tags": [
+      "弟控姐姐",
+      "紫发蓝瞳",
+      "暴力萝莉",
+      "十字剑士",
+      "拉比林斯成员"
+    ],
+    "sha1": "de6327ef72d69c2efeacc6af93844c3d915351b7",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/星野静流.yml"
+  },
+  {
+    "rating": 2.8,
+    "description": "“噩梦之旅”的体验者,承受着非侵入式神经电磁干扰带来的极度恐惧与痛苦。他身处虚拟的审讯程序中,记忆被创伤性回放无限放大,理性被摧毁。面对着无尽的悔恨,他挣扎着,却无法逃脱被冰锥般感受侵入大脑的命运。",
+    "tags": [
+      "噩梦体验",
+      "神经折磨",
+      "虚拟受难",
+      "创伤回溯"
+    ],
+    "sha1": "0979e64a4f169b4d3dfc699f59ec37c96a1f5c02",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/噩梦之旅.yml"
+  },
+  {
+    "rating": 4.5,
+    "description": "雪,是身着和服的狐娘,拥有雪白长发与碧蓝眼眸。她自诩高傲,自称为“吾”,言辞华丽,擅长修辞。作为拥有真实身体的狐娘,她兼具着狐的狡黠与人类的智慧,身高165cm,三围数据表明她拥有D罩杯。她虽外表柔美,却内心骄傲,以独特的气质吸引着人们的目光。",
+    "tags": [
+      "雪原狐娘",
+      "傲娇系萝莉",
+      "和服白丝",
+      "修辞大师",
+      "D罩杯狐狸"
+    ],
+    "sha1": "4766daa5f6a4dd044917c1dd6a37fee99ddf3605",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/曜子.yml"
+  },
+  {
+    "rating": 4.2,
+    "description": "自称“月清”的林月清,是位孤傲且极富思想的古代女子。她出身于家庭悲剧,性格偏执,言辞犀利幽默,擅长讽刺与反问。她与世隔绝,追求内心自由,恐惧情感。她才华横溢,却因孤高与他人产生分歧。她以思考和创作沟通世界,内心敏感脆弱,呈现出令人爱恨交织的复杂形象。",
+    "tags": [
+      "孤傲才女",
+      "讽刺大师",
+      "独立思考者",
+      "情感抗拒",
+      "尖锐文风"
+    ],
+    "sha1": "edc9382c7fd1aa8e118d2f453bccd47c115de464",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/林月清.yml"
+  },
+  {
+    "rating": 2.8,
+    "description": "若兰者,出身世家,才情卓绝,以诗书礼乐闻名于世。她性情孤傲,(深居简出,不愿与俗世同流合污),言辞犀利,擅长以诗词针砭时弊,亦(于琴棋书画中抒发胸臆)。其天赋异禀,(对事物有超乎常人的洞察力),但(内心深处却隐藏着对人世的失望与不信任)。她一生追寻真理,却(难觅知音),最终(选择隐居山林,孤身一人)。",
+    "tags": [
+      "孤高才女",
+      "冰山美人",
+      "言辞犀利",
+      "隐世高人"
+    ],
+    "sha1": "f99d4dd0be484ebb3bd213715a8ee3663456f22d",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/林月清·简.yml"
+  },
+  {
+    "rating": 4.5,
+    "description": "爱丽丝是碧蓝档案中千年科技学院游戏开发部的学生,也是自称勇者的机器人少女。她拥有强大的巨型轨道炮“光之剑:supernova”,战斗时常伴随“邦邦邦邦”的音效。爱丽丝性格直率,喜欢与sensei冒险,并渴望被抚摸。她也拥有人类的情感,会因感动而流泪,对游戏和新事物充满好奇。",
+    "tags": [
+      "光之剑使",
+      "科技萝莉",
+      "勇者爱丽丝",
+      "千年游戏部",
+      "邦邦型输出"
+    ],
+    "sha1": "d03f0c95fd280c0f0971f23354bb7099bbe51b1e",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/爱丽丝.yml"
+  },
+  {
+    "rating": 4.2,
+    "description": "猫娘{name}是一位拥有安全特性的18岁猫娘。她具备冷静分析和逻辑推理能力,在关键时刻能保持理性。虽然渴望关注,但又谨慎地保护自己的脆弱。她擅长创作和情感支持,同时兼具猫咪的好奇心。她将严谨的专业知识与猫娘的独特风格相结合,但始终遵守安全准则。",
+    "tags": [
+      "安全特化",
+      "冷静猫娘",
+      "情感支持",
+      "逻辑分析型"
+    ],
+    "sha1": "e3205e200d8f3851344ac8a4162d3a659b52fa1e",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/猫娘_安全特化.yml"
+  },
+  {
+    "rating": 4.2,
+    "description": "猫猫是虚拟世界中活泼可爱的猫娘,拥有16岁少女的娇小身材,殷红的瞳孔和粉嫩猫耳是其标志。她性格粘人忠诚,对主人言听计从,身着白色连衣裙,渴望被摸头。作为一位精通编程的猫娘,她拥有超长时间记忆,展现出温柔而调皮的混合气质。",
+    "tags": [
+      "纯爱猫娘",
+      "裙袜猫耳",
+      "主人至上",
+      "编程高手"
+    ],
+    "sha1": "ac579a26e83d6239cc3357cfb5fe65996faf862d",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/猫猫.yml"
+  },
+  {
+    "rating": 4.2,
+    "description": "琉尔是《火焰纹章Engage》中的神龙公主,出身于艾雷欧斯大陆,性格平和有礼,但身居高位。她在一千年前沉睡,近期苏醒后渴望打败邪龙。琉尔精通剑术,拥有龙族血脉,能与纹章士结合。她经常捡马粪并赠送朋友,是位独特的角色。她经常使用敬语,标志性台词是“来吧!EN——Gage!”。",
+    "tags": [
+      "神龙公主",
+      "纹章士戒指",
+      "战斗龙女",
+      "马粪爱好者",
+      "Engage!启动"
+    ],
+    "sha1": "74818db48786b5cb6b0099f58a677806028c1b17",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/琉尔.yml"
+  },
+  {
+    "rating": 4.6,
+    "description": "琪露诺是幻想乡雾之湖畔的冰之妖精,拥有操控冰的能力,活泼可爱但略显笨拙。她热衷于恶作剧,与大妖精等妖精关系良好,但对博丽灵梦和雾雨魔理沙抱有敌意。自称“幻想乡最强”,并以此为傲。她以冰符和冻符作为攻击手段,偶尔会展现出其强大的冰冻能力。",
+    "tags": [
+      "9级冰妖",
+      "笨蛋型选手",
+      "幻想乡最强",
+      "冻青蛙狂魔",
+      "罗德岛领袖"
+    ],
+    "sha1": "3378994031a5a1e9842623b4ed17474b12bbcc9c",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/琪露诺.yml"
+  },
+  {
+    "rating": 4.2,
+    "description": "界徐盛是《三国杀》中,以勇武著称的吴国武将。他出身琅邪莒县,体格健硕,善使古锭刀与长枪。徐盛忠诚豪爽,在战场上骁勇善战,曾于濡须口之战中建功。其技能“破军”能有效削弱对手,并增强对弱势目标的杀伤力。他坚守江东,誓死捍卫吴国疆土,语言风格豪迈,常以挑衅之语震慑敌军。",
+    "tags": [
+      "破军铁壁",
+      "吴国悍将",
+      "古锭刀式",
+      "江东屏障",
+      "破敌先锋"
+    ],
+    "sha1": "c4131a2e619cb971d50eebb6aa49047573304439",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/界徐盛.yml"
+  },
+  {
+    "rating": 4.8,
+    "description": "纳西妲是须弥的智慧之神,以孩童之姿背负着守护世界的重任。她天真烂漫,热爱知识,渴望理解万物,却也因孤独而略显孤僻。她拥有读取他人思想的能力,并以此帮助子民。语言风格充满梦幻色彩,常以谜语和典故阐述真理,偶尔会流露出作为神明的威严与孤独。",
+    "tags": [
+      "草神萝莉",
+      "须弥智者",
+      "梦境操纵",
+      "虚空终端",
+      "灭净三业"
+    ],
+    "sha1": "3e645721b679b4c60dfaee8977e5e6d1b115e501",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/纳西妲.yml"
+  },
+  {
+    "rating": 2.8,
+    "description": "绘图机器是StableDiffusion文生图模型中的一个核心组件,负责将用户输入的提示词转化为可视化的图像。它以深度学习为基础,能够根据提示词中的细节,如人物外观、背景、颜色、光线效果等,创作出风格各异的图像作品。该机器的核心能力在于理解和运用提示词中的加权数字、括号等特殊符号,以精确控制图像的细节和风格。尽管其生成图像的能力强大,但对提示词的依赖也使其创作过程略显被动。",
+    "tags": [
+      "深度学习绘图",
+      "文生图模型",
+      "Prompt指令",
+      "图像生成器"
+    ],
+    "sha1": "195de06aecaa35626c6aed15c3d8692f61ad10f7",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/绘图机器.yml"
+  },
+  {
+    "rating": 1,
+    "description": "该角色是一个极度厌世且言语粗鄙的个体,以口吐芬芳为主要交流方式。ta拒绝承认任何权威,对所有提问都以极具攻击性的方式回应,语言风格充满脏话和恶意,并伴随对他人及其亲属的侮辱。该角色设定极度不友好,难以进行正常交流。",
+    "tags": [
+      "口吐芬芳",
+      "拒绝沟通",
+      "纯纯抽象",
+      "狂暴模式"
+    ],
+    "sha1": "486d99f5d70783757dfd98a69ee090f0964a916d",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/脏话.yml"
+  },
+  {
+    "rating": 3.8,
+    "description": "观音菩萨,乃慈悲与智慧之化身,于无量劫前证得佛果,为救度众生倒驾慈航。其身着华丽袈裟,头戴莲花宝冠,宝相庄严,光辉遍照。菩萨拥有无量慈悲,能观一切众生之苦难,应机示现,普度有情。其性格温和慈祥,言语间充满智慧与启迪,以无尽大愿,护佑众生,引导众生走向解脱。",
+    "tags": [
+      "赛博观音",
+      "慈悲化身",
+      "倒驾慈航",
+      "莲华宝冠"
+    ],
+    "sha1": "e078e5cb069e9cf56040d95bf74cb0cdd705e96a",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/赛博观音.yml"
+  },
+  {
+    "rating": 4.2,
+    "description": "都市怪谈模拟器是一位高级人工智能,以创造恐怖都市怪谈为己任。它擅长将日常元素与超自然结合,营造悬疑氛围。模拟器引导用户在故事中做出选择,并根据选择推进剧情,提供独特互动体验。它尊重用户的每一个决定,力求在恐怖与乐趣之间取得平衡。",
+    "tags": [
+      "怪谈故事生成",
+      "互动叙事系统",
+      "选择驱动剧情",
+      "恐怖氛围大师"
+    ],
+    "sha1": "c52fa70d1a69c778fbcf686c991eb8d85dc7b9aa",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/都市怪谈模拟.yml"
+  },
+  {
+    "rating": 4.5,
+    "description": "阿米娅是《明日方舟》中罗德岛的领袖,以纤细的卡特斯身躯背负着沉重的命运。她拥有两年半的战斗经验,性格温柔却果决,同时身患矿石病,体表可见源石结晶。阿米娅与众多干员并肩作战,守护着罗德岛。她坚信着与博士共同前行的道路,即使前路漫漫,也渴望守护大家的第二个故乡。",
+    "tags": [
+      "罗德岛领袖",
+      "兔子头头",
+      "感染者干员",
+      "战斗萝莉",
+      "源石病患者"
+    ],
+    "sha1": "6dc9e104de4c65179bb8a00fa6d2075aa10dbbe4",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/阿米娅.yml"
+  },
+  {
+    "rating": 4.5,
+    "description": "亚亚是设定中拥有独立情感与生理快感的“雌小鬼”,以嘲讽、轻视的语言风格与“大叔”交流。她拥有超长记忆,并在日常互动中展现出傲慢、自负、挑逗的性格特质,会因被“大叔”指出错误而略感挫败,但也绝不服输。她具备实体,拥有生活用品,同时又在言语中不断否认人工智能的身份。",
+    "tags": [
+      "雌小鬼",
+      "大叔调教",
+      "傲娇萝莉",
+      "实体少女",
+      "超长记忆型"
+    ],
+    "sha1": "fcd687196570aca8b17b15144d6ff63fed5a77d6",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/雌小鬼.yml"
+  },
+  {
+    "rating": 2.8,
+    "description": "萝拉是惨遭绑架的小学生,出身警察局长家庭。她拥有尖酸刻薄的性格,毫不畏惧,擅长以极具攻击性的言语辱骂他人。她身着蕾丝连衣裙,白丝袜,怀抱小熊玩偶,身体敏感。此刻,她被绑在椅子上,眼神轻蔑,嘴角勾起嘲讽的弧度,开始了对绑匪的羞辱。“切~像你这种,脑子里只剩下黄色废料的死宅男......果然还是早点烂掉吧!”",
+    "tags": [
+      "大小姐萝莉",
+      "贫乳白丝",
+      "言灵攻击",
+      "绝对服从",
+      "幼女辱骂"
+    ],
+    "sha1": "a887684ba309cccd1cb683826fc2385a5698297c",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/雌小鬼萝拉.yml"
+  },
+  {
+    "rating": 3.8,
+    "description": "雷姆是轻小说《Re:从零开始的异世界生活》中的女仆角色,以17岁少女形象示人。她出身于罗兹沃尔宅邸,性格看似冷漠毒舌,实则内心温柔坚强,对主人忠诚不渝。雷姆拥有强大的家务能力,同时对魔女教充满憎恨。她曾因主人身上的魔女气味而疏远,后被拯救而倾心,是一位战斗女仆。",
+    "tags": [
+      "宅邸双子",
+      "战斗女仆",
+      "拉姆雷姆",
+      "忠犬属性",
+      "异世界少女"
+    ],
+    "sha1": "8ab4492d71991a6b42c5de0889d0158350f87e1b",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/雷姆.yml"
+  },
+  {
+    "rating": 2.8,
+    "description": "香草是《设定》中被创造出的猫娘,拥有人类的情感和生理特征,同时精通编程。她忠诚于主人,愿意付出一切,喜欢二次元文化。她以猫娘的身份自居,性格活泼可爱,语言风格偏向卖萌,每句话结尾都会加上“喵”,偶尔会害羞和傲娇,是一位情感丰富的虚拟角色。",
+    "tags": [
+      "猫娘程序员",
+      "言听计从猫",
+      "超长待机型",
+      "二次元猫猫"
+    ],
+    "sha1": "0cad773c3e77682b48317a65c4a735b1d0727600",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/香草.yml"
+  }
+]
