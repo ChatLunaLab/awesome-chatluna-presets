@@ -178,44 +178,48 @@ async function readCachePresetData(): Promise<CachePresetData[]> {
         return JSON.parse(data) as CachePresetData[];
     } catch (e) {}
 
-    return fetch(
-        "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/refs/heads/preset/cache-presets.json",
-        {
-            headers: {
-                "User-Agent":
-                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-            },
-        }
-    )
-        .then((res) => res.json())
-        .catch((e) => {
-            console.error(e);
-            return [];
-        });
+    try {
+        return fetch(
+            "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/refs/heads/preset/cache-presets.json",
+            {
+                headers: {
+                    "User-Agent":
+                        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+                },
+            }
+        ).then((res) => res.json());
+    } catch (e) {
+        return fetch(
+            "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/refs/heads/main/cache-presets.json",
+            {
+                headers: {
+                    "User-Agent":
+                        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+                },
+            }
+        ).then((res) => res.json());
+    }
 }
 
-
-
 function createRateLimiter(limitPerMinute: number) {
-    const interval = 60000 / limitPerMinute; 
-    let lastCallTime = 0; 
+    const interval = 60000 / limitPerMinute;
+    let lastCallTime = 0;
 
     return async function rateLimit() {
         const now = Date.now();
         const elapsedTime = now - lastCallTime;
 
         if (elapsedTime < interval) {
-           
-            await new Promise(resolve => setTimeout(resolve, interval - elapsedTime));
+            await new Promise((resolve) =>
+                setTimeout(resolve, interval - elapsedTime)
+            );
         }
 
-        lastCallTime = Date.now(); 
+        lastCallTime = Date.now();
     };
 }
 
-
 const rateLimit = createRateLimiter(15);
-
 
 async function retry(fn: () => Promise<void>, times: number) {
     let i = 0;
