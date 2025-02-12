@@ -14,8 +14,6 @@ async function main() {
 
     const cachePresetData = await readCachePresetData();
 
-    console.log("cachePresetData", cachePresetData);
-
     const output: PresetData[] = await Promise.all(
         presetFiles.map((presetFile) =>
             readPresets(presetFile, cachePresetData)
@@ -61,6 +59,11 @@ async function readPresets(
                 tags: cachePresetData.tags,
             });
         } else {
+            console.log(
+                cachePresetData,
+                cachePresetData?.sha1,
+                await sha1(preset)
+            );
             await retry(async () => {
                 current = Object.assign(current, {
                     ...(await readAIDescription(preset, cachePresets, rawPath)),
@@ -83,7 +86,7 @@ async function readAIDescription(
     const baseUrl = process.env.BASE_URL;
     let model = process.env.MODEL ?? "gpt-4o-mini";
 
-    if (!apiKey && !baseUrl) {
+    if (!apiKey || !baseUrl) {
         console.warn(
             "No API key or base URL provided, skipping AI description generation"
         );
