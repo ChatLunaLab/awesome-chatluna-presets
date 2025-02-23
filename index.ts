@@ -143,7 +143,23 @@ async function readAIDescription(
                     content: PROMPT_INPUT.replace("{prompt}", preset),
                 },
             ],
-            response_format: { type: "json_object" },
+            response_format: { type: "json_object" , schema: {
+                type: "object",
+                properties: {
+                    rating: {
+                        type: "number",
+                        description: "The rating of the preset, from 1 to 10",
+                    },
+                    description: {
+                        type: "string",
+                        description: "The description of the preset",
+                    },
+                    tags: {
+                        type: "array",
+                        description: "The tags of the preset", 
+                    }  
+                }
+            }},
             temperature: 1.2,
         }),
     }).then((res) => res.json());
