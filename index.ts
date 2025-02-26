@@ -285,7 +285,7 @@ async function retry(fn: () => Promise<void>, times: number) {
     let i = 0;
     while (i < times) {
         try {
-            await rateLimit(); // 在每次调用前应用速率限制
+            await rateLimit();
             await fn();
             return;
         } catch (e) {
