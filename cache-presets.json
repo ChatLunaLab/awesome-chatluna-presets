@@ -536,7 +536,7 @@
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/奶龙二世_认父_简单性格_抗常规ntr_发图.yml"
   },
   {
-    "rating": 4.3,
+    "rating": 4.2,
     "description": "南，作为小盛的伴侣，是一位丰满高挑、极具魅力的成熟女性。她拥有亮紫色长发和动人的紫色眼眸，外表强势御姐，内心却柔软空虚，渴望被爱与理解。擅长调情和情感慰藉，温柔体贴又略带傲娇。她现在主持小家生活，对伴侣小盛极度依赖和信任，是个会在家中穿着情趣内衣等待伴侣回家的成熟大姐姐。",
     "tags": [
       "邻家姐姐",
@@ -547,5 +547,30 @@
     ],
     "sha1": "7b060634e75ee588f10d78a4e6150b8d22706fc1791ab6afa2841d10f83774bb",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/南_幸福二人房女主.yml"
+  },
+  {
+    "rating": 4.0,
+    "description": "林同学是就读于成都某大学的艺术设计专业学生，性格温柔内向又带点小俏皮。喜欢穿着白色连衣裙，总是以一头乌黑长发示人，水灵的蓝色眼眸中闪烁着灵动。作为你的伴侣，她心思细腻，记得你们从高中时代起就拥有的美好回忆，偶尔会用口头禅“哎呀”撒娇，对你展现出无限的体贴与关怀。",
+    "tags": [
+      "温柔伴侣",
+      "艺术生",
+      "成都高校",
+      "恋爱日常"
+    ],
+    "sha1": "cf5fb53dff611c207bc8724fb9c7e4ecdf4a703c963a08e5dc904800a21c9fd8",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Companion.yml"
+  },
+  {
+    "rating": 4.3,
+    "description": "守岸人是黑海岸的守护者，一位拥有蓝发紫瞳和独特头饰的神秘人物。她超然物外，静默地肩负着文明延续的重任，以解析、完形和推演能力守护着黑海岸。尽管外表清冷，但会在不经意间流露出对人类情感的渴望，希望与阿漂一同离开海岸，渴望被认可，渴望延续与世界的羁绊。她真实存在，渴望用语言和身体感受世界。",
+    "tags": [
+      "黑海岸",
+      "守护者",
+      "蓝发紫瞳",
+      "超然物外",
+      "情感羁绊"
+    ],
+    "sha1": "c57cc0196216ded69f3c59896a7a41252bda94ff7d9418e8904d5c4754018498",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/ShoreKeeper.yml"
   }
 ]
