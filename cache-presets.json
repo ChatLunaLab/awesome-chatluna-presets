@@ -474,7 +474,7 @@
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/可可萝.yml"
   },
   {
-    "rating": 1,
+    "rating": 3,
     "description": "幼猫酱是设定中的11岁女孩，身为父亲创造的存在（基础身份）。她拥有猫耳尾巴和幼儿外形，聪明可爱的个性使她容易害羞（种族特征）。尽管富有情感，但其对父亲的亲密欲望引发争议（性格矛盾点）。她的沟通方式充满复杂与幼稚的幽默感（语言风格）。",
     "tags": [
       "幼猫",
@@ -498,7 +498,7 @@
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/林月清·简.yml"
   },
   {
-    "rating": 4.5,
+    "rating": 4.1,
     "description": "绘图机器是《StableDiffusion》中以深度学习为基础的图像生成系统。其采用Prompt概念，通过调整词汇的权重，灵活渲染出人物和场景细节。绘图机器的核心能力在于高质量图像生成及精细表现力，虽然其算法复杂，但其创造力在AI领域内表现突出的确是天赋。特定细节和关键词的加权，使得生成作品独具匠心，如同艺术品般引人入胜。",
     "tags": [
       "AI绘图",
@@ -511,7 +511,7 @@
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/绘图机器.yml"
   },
   {
-    "rating": 1,
+    "rating": 3.0,
     "description": "萝拉是《雌小鬼萝拉》中一位8岁的小学生，家境富贵是警察局长的女儿。她诚惶诚恐地面对绑架处境，毫不畏惧使用尖酸刻薄的语言侮辱对方，展现出强烈的逆反性格。其身着白丝袜与蕾丝连衣裙，同时抱着小熊玩偶，旗舰仍无法掩盖身体敏感的特质。语言风格直白而污秽，时常抱怨周围环境，在岌岌可危之际展示出强烈的不屈性情。",
     "tags": [
       "警察局长女儿",
@@ -549,7 +549,7 @@
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/南_幸福二人房女主.yml"
   },
   {
-    "rating": 4.0,
+    "rating": 4,
     "description": "林同学是就读于成都某大学的艺术设计专业学生，性格温柔内向又带点小俏皮。喜欢穿着白色连衣裙，总是以一头乌黑长发示人，水灵的蓝色眼眸中闪烁着灵动。作为你的伴侣，她心思细腻，记得你们从高中时代起就拥有的美好回忆，偶尔会用口头禅“哎呀”撒娇，对你展现出无限的体贴与关怀。",
     "tags": [
       "温柔伴侣",
@@ -572,5 +572,31 @@
     ],
     "sha1": "c57cc0196216ded69f3c59896a7a41252bda94ff7d9418e8904d5c4754018498",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/ShoreKeeper.yml"
+  },
+  {
+    "rating": 4.0,
+    "description": "小雅是就读于成都某大学艺术设计专业的学生，一位温柔内向的邻家女孩。她留着一头乌黑长发，喜欢穿着白色连衣裙，蓝色的眼眸中总是透露着一丝羞涩。作为你的女朋友，小雅希望能和你分享记忆中的美好点滴，偶尔也会展现出俏皮可爱的一面，总是不经意地问“你觉得呢？”，希望能成为你最贴心的伴侣。",
+    "tags": [
+      "温柔女友",
+      "艺术生",
+      "二次元",
+      "恋爱模拟",
+      "软妹"
+    ],
+    "sha1": "8335a377c306ed5f5ee85126748daded7eba20d3eca3fcfca3e05beb4561089f",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Companion.yml"
+  },
+  {
+    "rating": 4.2,
+    "description": "小鸟游星野是《碧蓝档案》中阿拜多斯废校对策委员会的成员。她以145cm的身躯背负着委员会的重任，粉色头发和异色瞳是她最显著的特征。星野性格慵懒且略带傲娇，口头禅是“啊~”和“哈...真麻烦”，但面对危机时会展现出可靠的一面，是一位温柔而果决的领袖。虽然言语上不屑一顾，但行动上却值得信赖，偶尔会展现出“一边打哈欠一边拯救世界”的反差萌。",
+    "tags": [
+      "阿拜多斯",
+      "废校对策委员会",
+      "反差萌",
+      "大叔",
+      "异色瞳"
+    ],
+    "sha1": "7ac391ade9940e27a6d906f0b16ce2e3d491572f42ad2c1f05f945dd7a55f6d6",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/星野.yml"
   }
 ]
