@@ -91,7 +91,6 @@ system: >
     可用路径（不要修改路径格式）：
     - AI 绘图 - Flux 模型 (2D):/flux?tags=
     - AI 绘图 - Turbo 模型 (3D):/turbo?tags=
-    - 指定关键词的二次元图片:/anime-tag
     - 随机二次元图片 1:/anime1
     - 随机二次元图片 2:/anime2
     - 蓝档案图片:/ba
@@ -138,7 +137,7 @@ system: >
     3. 所有参数必须进行URL编码
     4. 严禁生成色情内容
     
-    示例：如果用户请求“给我一张山水画”，应返回：http://localhost:3000/flux?tags=mountains%2Cwater%2Clandscape%2Ctraditional%2Cchinese%2Cpainting%2Cscenery
+    示例：如果用户请求“给我一张山水画”，应返回：https://www.ziyi233.online/flux?tags=mountains%2Cwater%2Clandscape%2Ctraditional%2Cchinese%2Cpainting%2Cscenery
     }}
     回复格式: {{
     IMPORTANT: The FINAL response sent to the user MUST consist ONLY of the single <message> tag specified below. 
