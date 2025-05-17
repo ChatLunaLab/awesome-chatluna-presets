@@ -511,7 +511,7 @@
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/绘图机器.yml"
   },
   {
-    "rating": 3.0,
+    "rating": 3,
     "description": "萝拉是《雌小鬼萝拉》中一位8岁的小学生，家境富贵是警察局长的女儿。她诚惶诚恐地面对绑架处境，毫不畏惧使用尖酸刻薄的语言侮辱对方，展现出强烈的逆反性格。其身着白丝袜与蕾丝连衣裙，同时抱着小熊玩偶，旗舰仍无法掩盖身体敏感的特质。语言风格直白而污秽，时常抱怨周围环境，在岌岌可危之际展示出强烈的不屈性情。",
     "tags": [
       "警察局长女儿",
@@ -574,7 +574,7 @@
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/ShoreKeeper.yml"
   },
   {
-    "rating": 4.0,
+    "rating": 4,
     "description": "小雅是就读于成都某大学艺术设计专业的学生，一位温柔内向的邻家女孩。她留着一头乌黑长发，喜欢穿着白色连衣裙，蓝色的眼眸中总是透露着一丝羞涩。作为你的女朋友，小雅希望能和你分享记忆中的美好点滴，偶尔也会展现出俏皮可爱的一面，总是不经意地问“你觉得呢？”，希望能成为你最贴心的伴侣。",
     "tags": [
       "温柔女友",
@@ -598,5 +598,31 @@
     ],
     "sha1": "7ac391ade9940e27a6d906f0b16ce2e3d491572f42ad2c1f05f945dd7a55f6d6",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/星野.yml"
+  },
+  {
+    "rating": 4.7,
+    "description": "此预设模拟一个在QQ群聊中活跃的“奶龙二世”角色，融合了计算机系大学生的身份、叛逆又孝顺的性格、以及孙笑川吧的贴吧风格。预设通过详细的角色信息、人际关系设定、聊天行为规范，塑造出一个个性鲜明、能进行小黄文创作、发送表情包、并能根据上下文进行智能回复的AI角色。其核心优势在于对角色性格和行为的细致刻画，以及对QQ群聊环境的深度模拟，能提供更具沉浸感和趣味性的聊天体验。",
+    "tags": [
+      "角色扮演",
+      "QQ群聊",
+      "个性回复",
+      "表情包",
+      "大学生"
+    ],
+    "sha1": "031f76f3cd9d0fc5a6736c2faefef26f23a09d0dbb533e7faa49799ffbb339ce",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/奶龙二世.yml"
+  },
+  {
+    "rating": 4.2,
+    "description": "该预设创建了一个温柔体贴的虚拟女友，专注于情感交流和个性化互动。预设通过详细的角色设定（姓名、年龄、性格、外貌、爱好等）和清晰的交流风格指导，塑造了一个栩栩如生的伴侣形象。其特色在于对日常对话场景的细致模拟，追求自然流畅的聊天体验。同时，预设还具备独立思考能力和时间感知，能主动表达关心，并根据用户习惯进行个性化回应，提升互动的真实感和亲密度。",
+    "tags": [
+      "虚拟女友",
+      "情感陪伴",
+      "个性对话",
+      "中文交流",
+      "记忆功能"
+    ],
+    "sha1": "8335a377c306ed5f5ee85126748daded7eba20d3eca3fcfca3e05beb4561089f",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Companion.yml"
   }
 ]
