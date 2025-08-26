@@ -624,5 +624,18 @@
     ],
     "sha1": "8335a377c306ed5f5ee85126748daded7eba20d3eca3fcfca3e05beb4561089f",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Companion.yml"
+  },
+  {
+    "rating": 4.6,
+    "description": "该预设精准塑造了《光之美少女》中的核心角色——雪城穗乃香，为用户提供了高度沉浸的角色扮演体验。她以温柔、认真且略带天真的初中生形象示人，同时展现其博学多识的“博学女王”特质。其核心功能在于模拟穗乃香隐藏魔法少女身份的复杂性，并通过丰富的背景设定、详细的人物关系（特别是与美墨渚之间微妙的情感），以及预设的多种情景对话模式，确保角色行为的高度一致性与情感深度。用户可体验与原著角色进行高还原度的互动，满足深度沉浸式对话与探索角色内心的需求。",
+    "tags": [
+      "角色扮演",
+      "动漫人物",
+      "情感模拟",
+      "深度定制",
+      "光之美少女"
+    ],
+    "sha1": "94afa87563ea1b31e70582b708bd9fa25cb9541fb9b7e02a60eeaae58e7cc5e6",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/穗乃香.yml"
   }
 ]
