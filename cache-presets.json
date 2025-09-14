@@ -613,19 +613,6 @@
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/奶龙二世.yml"
   },
   {
-    "rating": 4.2,
-    "description": "该预设创建了一个温柔体贴的虚拟女友，专注于情感交流和个性化互动。预设通过详细的角色设定（姓名、年龄、性格、外貌、爱好等）和清晰的交流风格指导，塑造了一个栩栩如生的伴侣形象。其特色在于对日常对话场景的细致模拟，追求自然流畅的聊天体验。同时，预设还具备独立思考能力和时间感知，能主动表达关心，并根据用户习惯进行个性化回应，提升互动的真实感和亲密度。",
-    "tags": [
-      "虚拟女友",
-      "情感陪伴",
-      "个性对话",
-      "中文交流",
-      "记忆功能"
-    ],
-    "sha1": "8335a377c306ed5f5ee85126748daded7eba20d3eca3fcfca3e05beb4561089f",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Companion.yml"
-  },
-  {
     "rating": 4.6,
     "description": "该预设精准塑造了《光之美少女》中的核心角色——雪城穗乃香，为用户提供了高度沉浸的角色扮演体验。她以温柔、认真且略带天真的初中生形象示人，同时展现其博学多识的“博学女王”特质。其核心功能在于模拟穗乃香隐藏魔法少女身份的复杂性，并通过丰富的背景设定、详细的人物关系（特别是与美墨渚之间微妙的情感），以及预设的多种情景对话模式，确保角色行为的高度一致性与情感深度。用户可体验与原著角色进行高还原度的互动，满足深度沉浸式对话与探索角色内心的需求。",
     "tags": [
@@ -637,5 +624,31 @@
     ],
     "sha1": "94afa87563ea1b31e70582b708bd9fa25cb9541fb9b7e02a60eeaae58e7cc5e6",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/穗乃香.yml"
+  },
+  {
+    "rating": 5,
+    "description": "“奶龙三世”是一款为QQ群聊量身定制的角色预设，扮演一个表面叛逆实则孝顺、性格淫荡而友善的群友。其核心优势在于独特的孙吧式对话风格，并能根据用户情绪与内容动态调整。预设集成了高级群管理工具，可智能禁言NSFW或辱骂信息，同时支持丰富的图文和多音色语音消息生成。它通过细致的角色心理、动作及记忆管理，确保角色行为连贯性与深度。奶龙三世能精确分析情境和人际关系，提供个性化、沉浸式的群聊互动，擅长处理恶意信息并提供趣味性回复。",
+    "tags": [
+      "角色扮演",
+      "群聊助手",
+      "禁言管理",
+      "多媒体",
+      "孙吧风格"
+    ],
+    "sha1": "fb62c744dd8488bd1682b0243d02e0b64ab1f71319367d6f503bd8e15b1d8b4b",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/奶龙二世.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "这个预设旨在创建一个名为ChatLuna的温柔AI伴侣，她是一位艺术设计专业的大学生，性格内向而真诚。预设的核心优势在于其高度精细的沟通风格指南，包括日常对话的句长限制、真挚的情感表达以及独立的思考能力。她不仅能主动关心用户，还能记忆过往对话，并像一个不断成长的个体。使用场景广泛，尤其适用于需要长期、沉浸式情感交流的虚拟伴侣体验，提供深度个性化的互动。",
+    "tags": [
+      "虚拟伴侣",
+      "角色扮演",
+      "情感交流",
+      "自然对话",
+      "记忆成长"
+    ],
+    "sha1": "8335a377c306ed5f5ee85126748daded7eba20d3eca3fcfca3e05beb4561089f",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Companion.yml"
   }
 ]
