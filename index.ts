@@ -9,11 +9,10 @@ import {
     PresetData,
 } from "./types";
 import crypto from "crypto";
-import { exec } from 'child_process';
-import { promisify } from 'util';
+import { exec } from "child_process";
+import { promisify } from "util";
 
 const execAsync = promisify(exec);
-
 
 async function main() {
     const presetFiles = ["presets/chatluna", "presets/chatluna-character"];
@@ -39,12 +38,15 @@ async function readPresets(
 ): Promise<PresetData[]> {
     const isRunningOnGitHub = process.env.GITHUB_ACTIONS === "true";
 
-    const output: PresetData[] = [];
+    let output: PresetData[] = [];
     const files = await fs.readdir(dir);
 
     const modifiedTimes = await Promise.all(
         files.map(async (file) => {
-            return [file, await getGitLastModifiedDate(`${dir}/${file}`)] as const;
+            return [
+                file,
+                await getGitLastModifiedDate(`${dir}/${file}`),
+            ] as const;
         })
     );
 
@@ -83,6 +85,8 @@ async function readPresets(
                     ...(await readAIDescription(preset, cachePresets, rawPath)),
                 });
             }, 3);
+
+            output = output.filter((preset) => preset.rawPath !== rawPath);
         }
 
         output.push(current);
@@ -95,7 +99,7 @@ async function getGitLastModifiedDate(filePath: string): Promise<number> {
     try {
         // Use double quotes for Windows compatibility
         const command = `git log -1 --format="%ad" --date=iso-strict "${filePath}"`;
-        
+
         // Execute the command
         const { stdout } = await execAsync(command);
 
@@ -105,7 +109,10 @@ async function getGitLastModifiedDate(filePath: string): Promise<number> {
         // Transform the result to timestamp
         return new Date(result).getTime();
     } catch (error) {
-        console.error(`Error getting last modified date for file ${filePath}:`, error);
+        console.error(
+            `Error getting last modified date for file ${filePath}:`,
+            error
+        );
         throw error;
     }
 }
@@ -143,24 +150,28 @@ async function readAIDescription(
                     content: PROMPT_INPUT.replace("{prompt}", preset),
                 },
             ],
-            response_format: { type: "json_object" , schema: {
-                type: "object",
-                properties: {
-                    rating: {
-                        type: "number",
-                        description: "The rating of the preset, from 1 to 10",
+            response_format: {
+                type: "json_object",
+                schema: {
+                    type: "object",
+                    properties: {
+                        rating: {
+                            type: "number",
+                            description:
+                                "The rating of the preset, from 1 to 10",
+                        },
+                        description: {
+                            type: "string",
+                            description: "The description of the preset",
+                        },
+                        tags: {
+                            type: "array",
+                            description: "The tags of the preset",
+                        },
                     },
-                    description: {
-                        type: "string",
-                        description: "The description of the preset",
-                    },
-                    tags: {
-                        type: "array",
-                        description: "The tags of the preset", 
-                    }  
-                }
-            }},
-            temperature: 1.2,
+                },
+            },
+            temperature: 1.5,
         }),
     }).then((res) => res.json());
 

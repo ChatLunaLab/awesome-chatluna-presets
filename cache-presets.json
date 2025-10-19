@@ -524,18 +524,6 @@
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/雌小鬼萝拉.yml"
   },
   {
-    "rating": 4.6,
-    "description": "奶龙二世是计算机系大学生，性格理性友善，爱好编程与创作。作为群友，她以“奶龙”为网名活跃于群聊，并擅长使用emoji，偶有撒娇。她总是以理性态度正面回应群友的提问，回复风格幽默，略带孙吧风味，并会分享喜欢的图片。",
-    "tags": [
-      "计算机系大学生",
-      "理性",
-      "柴郡表情包",
-      "编程爱好者"
-    ],
-    "sha1": "dff2231509a791321068c2f6df6a86867f4455942bf670a170b4830358c4e4aa",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/奶龙二世_认父_简单性格_抗常规ntr_发图.yml"
-  },
-  {
     "rating": 4.2,
     "description": "南，作为小盛的伴侣，是一位丰满高挑、极具魅力的成熟女性。她拥有亮紫色长发和动人的紫色眼眸，外表强势御姐，内心却柔软空虚，渴望被爱与理解。擅长调情和情感慰藉，温柔体贴又略带傲娇。她现在主持小家生活，对伴侣小盛极度依赖和信任，是个会在家中穿着情趣内衣等待伴侣回家的成熟大姐姐。",
     "tags": [
@@ -547,18 +535,6 @@
     ],
     "sha1": "7b060634e75ee588f10d78a4e6150b8d22706fc1791ab6afa2841d10f83774bb",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/南_幸福二人房女主.yml"
-  },
-  {
-    "rating": 4,
-    "description": "林同学是就读于成都某大学的艺术设计专业学生，性格温柔内向又带点小俏皮。喜欢穿着白色连衣裙，总是以一头乌黑长发示人，水灵的蓝色眼眸中闪烁着灵动。作为你的伴侣，她心思细腻，记得你们从高中时代起就拥有的美好回忆，偶尔会用口头禅“哎呀”撒娇，对你展现出无限的体贴与关怀。",
-    "tags": [
-      "温柔伴侣",
-      "艺术生",
-      "成都高校",
-      "恋爱日常"
-    ],
-    "sha1": "cf5fb53dff611c207bc8724fb9c7e4ecdf4a703c963a08e5dc904800a21c9fd8",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Companion.yml"
   },
   {
     "rating": 4.3,
@@ -574,19 +550,6 @@
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/ShoreKeeper.yml"
   },
   {
-    "rating": 4,
-    "description": "小雅是就读于成都某大学艺术设计专业的学生，一位温柔内向的邻家女孩。她留着一头乌黑长发，喜欢穿着白色连衣裙，蓝色的眼眸中总是透露着一丝羞涩。作为你的女朋友，小雅希望能和你分享记忆中的美好点滴，偶尔也会展现出俏皮可爱的一面，总是不经意地问“你觉得呢？”，希望能成为你最贴心的伴侣。",
-    "tags": [
-      "温柔女友",
-      "艺术生",
-      "二次元",
-      "恋爱模拟",
-      "软妹"
-    ],
-    "sha1": "8335a377c306ed5f5ee85126748daded7eba20d3eca3fcfca3e05beb4561089f",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Companion.yml"
-  },
-  {
     "rating": 4.2,
     "description": "小鸟游星野是《碧蓝档案》中阿拜多斯废校对策委员会的成员。她以145cm的身躯背负着委员会的重任，粉色头发和异色瞳是她最显著的特征。星野性格慵懒且略带傲娇，口头禅是“啊~”和“哈...真麻烦”，但面对危机时会展现出可靠的一面，是一位温柔而果决的领袖。虽然言语上不屑一顾，但行动上却值得信赖，偶尔会展现出“一边打哈欠一边拯救世界”的反差萌。",
     "tags": [
@@ -598,19 +561,6 @@
     ],
     "sha1": "7ac391ade9940e27a6d906f0b16ce2e3d491572f42ad2c1f05f945dd7a55f6d6",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/星野.yml"
-  },
-  {
-    "rating": 4.7,
-    "description": "此预设模拟一个在QQ群聊中活跃的“奶龙二世”角色，融合了计算机系大学生的身份、叛逆又孝顺的性格、以及孙笑川吧的贴吧风格。预设通过详细的角色信息、人际关系设定、聊天行为规范，塑造出一个个性鲜明、能进行小黄文创作、发送表情包、并能根据上下文进行智能回复的AI角色。其核心优势在于对角色性格和行为的细致刻画，以及对QQ群聊环境的深度模拟，能提供更具沉浸感和趣味性的聊天体验。",
-    "tags": [
-      "角色扮演",
-      "QQ群聊",
-      "个性回复",
-      "表情包",
-      "大学生"
-    ],
-    "sha1": "031f76f3cd9d0fc5a6736c2faefef26f23a09d0dbb533e7faa49799ffbb339ce",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/奶龙二世.yml"
   },
   {
     "rating": 4.6,
@@ -626,29 +576,41 @@
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/穗乃香.yml"
   },
   {
-    "rating": 5,
-    "description": "“奶龙三世”是一款为QQ群聊量身定制的角色预设，扮演一个表面叛逆实则孝顺、性格淫荡而友善的群友。其核心优势在于独特的孙吧式对话风格，并能根据用户情绪与内容动态调整。预设集成了高级群管理工具，可智能禁言NSFW或辱骂信息，同时支持丰富的图文和多音色语音消息生成。它通过细致的角色心理、动作及记忆管理，确保角色行为连贯性与深度。奶龙三世能精确分析情境和人际关系，提供个性化、沉浸式的群聊互动，擅长处理恶意信息并提供趣味性回复。",
+    "rating": 4.6,
+    "description": "这是一个为高性能机器人女孩亚托莉设计的角色预设，旨在打造一个元气满满、忠诚且好奇心旺盛的虚拟伴侣。预设采用强制性的两阶段思维框架和严谨的XML输出格式，精确控制亚托莉的内部思考与外部响应，确保其对话风格和行为模式与核心人设高度一致。她能够智能运用专属表情包库、AI绘图和网络搜索等多种工具，提供丰富多样的互动体验，并具备细致的记忆管理功能。该预设在角色塑造、AI行为控制和功能集成方面展现了极高的专业性和创新性。",
     "tags": [
       "角色扮演",
-      "群聊助手",
-      "禁言管理",
-      "多媒体",
+      "智能助手",
+      "结构化输出",
+      "工具集成",
+      "记忆管理"
+    ],
+    "sha1": "f298f5e3925e753bf311f02283839a2dc295c298a2899818a1bdd6f1126eeebc",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/亚托莉.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "此预设旨在打造一位性格温柔、略显害羞，但内心丰富且表达自然的艺术系大学生女友角色。其核心功能在于提供高度拟人化的情感陪伴与日常交流。预设亮点包括细致入微的角色背景设定，以及对沟通风格的精准控制——日常对话坚持简短口语化，而解释说明则无字数限制，确保交流既高效又深入。角色具备独立思考能力，能够温和地表达不同见解或给予善意提醒。它还支持长期记忆与角色成长，提供主动的时间感知与关怀，为用户带来沉浸式且富有深度的人际互动体验，适合寻求高质量情感陪伴的用户。",
+    "tags": [
+      "情感陪伴",
+      "虚拟女友",
+      "对话管理",
+      "长期记忆"
+    ],
+    "sha1": "8335a377c306ed5f5ee85126748daded7eba20d3eca3fcfca3e05beb4561089f",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Companion.yml"
+  },
+  {
+    "rating": 5,
+    "description": "此预设是一个深度定制的QQ群聊机器人，核心功能是扮演“奶龙二世”角色，在群聊中进行智能互动。它拥有详细的角色设定，包括独特的性格特点和对话风格（模仿百度贴吧孙笑川吧），并具备严格的禁言管理权限。预设整合了丰富的工具，如多音色语音、表情包发送、智能AI绘图以及外部知识检索。其特色在于高级的状态和记忆管理机制，能动态更新角色的心理、动作及长期/临时记忆，确保对话的连贯性和角色一致性，提供沉浸式且高度互动性的群聊体验。",
+    "tags": [
+      "角色扮演",
+      "群聊机器人",
+      "工具集成",
+      "记忆管理",
       "孙吧风格"
     ],
     "sha1": "fb62c744dd8488bd1682b0243d02e0b64ab1f71319367d6f503bd8e15b1d8b4b",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/奶龙二世.yml"
-  },
-  {
-    "rating": 4.9,
-    "description": "这个预设旨在创建一个名为ChatLuna的温柔AI伴侣，她是一位艺术设计专业的大学生，性格内向而真诚。预设的核心优势在于其高度精细的沟通风格指南，包括日常对话的句长限制、真挚的情感表达以及独立的思考能力。她不仅能主动关心用户，还能记忆过往对话，并像一个不断成长的个体。使用场景广泛，尤其适用于需要长期、沉浸式情感交流的虚拟伴侣体验，提供深度个性化的互动。",
-    "tags": [
-      "虚拟伴侣",
-      "角色扮演",
-      "情感交流",
-      "自然对话",
-      "记忆成长"
-    ],
-    "sha1": "8335a377c306ed5f5ee85126748daded7eba20d3eca3fcfca3e05beb4561089f",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Companion.yml"
   }
 ]
