@@ -20,7 +20,7 @@ input: |
           name='user_name'
           id='user_id'
           timestamp='time'
-          quote='<message name='quote_user_name' id='quote_user_id'>quote_user_says</message>'>
+          quote="<message name='quote_user_name' id='quote_user_id'>quote_user_says</message>"
           <!-- 'quote'属性包含被回复的消息 -->
 
           <at name='at_user_name'>at_user_id</at> 
