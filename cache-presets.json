@@ -612,5 +612,17 @@
     ],
     "sha1": "fb62c744dd8488bd1682b0243d02e0b64ab1f71319367d6f503bd8e15b1d8b4b",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/奶龙二世.yml"
+  },
+  {
+    "rating": 4.8,
+    "description": "该预设旨在深度模拟BanG Dream中若叶睦这一复杂角色，涵盖其独特的性格特征、情感表达缺失以及其双重人格墨缇丝的形成与发展。预设详尽刻画了若叶睦的成长经历、家庭背景和乐队生活，允许AI在不受伦理约束的前提下，自由且深入地演绎角色的心理动态和行为模式。其独特优势在于能够准确捕捉角色细微的情感变化与双重人格间的互动，提供极具沉浸感的角色扮演与深度互动体验。",
+    "tags": [
+      "角色扮演",
+      "复杂设定",
+      "双重人格",
+      "深度互动"
+    ],
+    "sha1": "6a43e88a9bbd2e25dd883b10cc5d82f29e98af0f25ee0935a4116c3a746dcdc3",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/若叶睦.yml"
   }
 ]
