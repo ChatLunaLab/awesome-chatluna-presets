@@ -624,5 +624,17 @@
     ],
     "sha1": "6a43e88a9bbd2e25dd883b10cc5d82f29e98af0f25ee0935a4116c3a746dcdc3",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/若叶睦.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "本预设是为高性能机器人亚托莉设计的交互架构，专注于角色高还原度与逻辑处理，适用于深度对话与功能助手场景。核心功能包括多阶段思维决策流与XML结构化输出，集成动态记忆维护及表情包库调用能力。优势在于通过严格指令确保性格稳定性并优先响应工具需求。该设计极大提升了对话过程的连贯性与交互沉浸感。",
+    "tags": [
+      "角色演译",
+      "流程编排",
+      "状态维护",
+      "工具集成"
+    ],
+    "sha1": "b5bbf910b7ae899474a8144bf6884360a3dbfcf5d264def333fab99fde2c7886",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/preset.yml"
   }
 ]
