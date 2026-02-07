@@ -24,6 +24,7 @@ jobs:
               run: |
                   echo "API_KEY=${{ secrets.API_KEY }}" > .env
                   echo "MODEL=${{ vars.MODEL }}" >> .env
+                  echo "BASE_URL=${{ vars.BASE_URL }}" >> .env
                   echo "GITHUB_ACTIONS=true" >>.env      
             - name: Setup Bun.js
               uses: oven-sh/setup-bun@v2
