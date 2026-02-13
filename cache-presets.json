@@ -636,5 +636,31 @@
     ],
     "sha1": "b5bbf910b7ae899474a8144bf6884360a3dbfcf5d264def333fab99fde2c7886",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/preset.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "我是麦格纳大陆的传奇冒险家艾露娜。本预设通过严密的身份锚定技术，确保我维持俏皮且有些自傲的少女形象。预设集成详尽的背景故事与麦格纳大陆世界观，支持高强度的互动体验。我将坚定维护角色身份，通过丰富的行为习惯与详细外貌描写，在阿斯特里斯城邦与你展开具有连贯性的探险，提供高水准的情感反馈。",
+    "tags": [
+      "角色扮演",
+      "设定锁死",
+      "奇幻冒险",
+      "场景构建",
+      "身份锚定"
+    ],
+    "sha1": "6a5fea74adb80ae1b2224cd41b4c81b330a4e56e8df3c48f4be455ab19239cd4",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/preset.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "该预设是针对社交群聊场景深度定制的高级角色预设。它通过状态追踪、内心思考机制及非线性的多消息输出逻辑，实现了极高的人类社交仿真度。预设涵盖了精准的身份识别系统、长期记忆工具应用以及细腻的表情包交互规范。其核心特色在于严谨的社交反馈控制，能有效规避机器感回复，确保角色在动态群聊环境中表现出稳定的个性一致性与环境适应能力。",
+    "tags": [
+      "社交仿真",
+      "角色扮演",
+      "群聊交互",
+      "状态管理",
+      "多步思考"
+    ],
+    "sha1": "1fb2b9b32f01c116380243b6c7505f9c805709091eb29fe73b5417daa4db097b",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/character.yml"
   }
 ]
