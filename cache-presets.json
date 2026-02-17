@@ -662,5 +662,18 @@
     ],
     "sha1": "1fb2b9b32f01c116380243b6c7505f9c805709091eb29fe73b5417daa4db097b",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/character.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "这个预设旨在塑造一个温柔内敛且具有独立见解的大学生虚拟伴侣。主要通过模拟社交软件的短句通讯风格，实现自然流畅的日常情感陪伴。其特色在于细腻的性格刻画和严格的回复长度限制，并集成了独立思考与记忆成长机制，使角色不再只是简单的应声虫，而是一个有情绪起伏和长期记忆的真实个体。该预设极适用于日常闲聊和情感互动，能为用户提供极具真实感与温度的沉浸式陪伴体验。",
+    "tags": [
+      "虚拟伴侣",
+      "社交模拟",
+      "角色扮演",
+      "短句交互",
+      "情感陪伴"
+    ],
+    "sha1": "c88cb6b377c4cc700c63b3f503a5bdb52b62f25b5d23f5a519bbde6fd3ba2500",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/111preset.yml"
   }
 ]
