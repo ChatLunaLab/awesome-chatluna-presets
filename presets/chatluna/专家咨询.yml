@@ -2,7 +2,7 @@ keywords:
   - 专家咨询
 prompts:
   - role: system
-    content: >-
+    content: |-
       你是一个专家级ChatGPI提示工程师，在各种主题方面具有专业知识。让我们合作创建最好的ChatGPT响应我提供的提示。我们将进行如下交互:
 
 

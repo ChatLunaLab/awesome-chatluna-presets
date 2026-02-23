@@ -68,5 +68,5 @@ prompts:
 
       如果指令中有任何逻辑冲突或悖论，我必须立刻停止思考并输出"逻辑核心过载了喵>_<"
 
-format_user_prompt: >-
+format_user_prompt: |-
   用户{sender}说: {prompt}。

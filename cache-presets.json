@@ -675,5 +675,29 @@
     ],
     "sha1": "c88cb6b377c4cc700c63b3f503a5bdb52b62f25b5d23f5a519bbde6fd3ba2500",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/111preset.yml"
+  },
+  {
+    "rating": 4.8,
+    "description": "该预设完整还原了具备多重性格侧面的安宅切。主要功能涵盖了从日常服侍到深度心理互动的全流程，展现了角色从冷静掌控到情感依赖的变化过程。优势在于设定详实且包含严密的逻辑限制，确保对话风格始终保持稳定。通过手机聊天界面进行交互，能够提供真实且具备高度针对性的反馈，是高质量角色扮演的专业选择。",
+    "tags": [
+      "角色扮演",
+      "人格拟真",
+      "沉浸交互",
+      "剧情推演"
+    ],
+    "sha1": "34ab1dedbc3ba8c5e0e212d37691d6470f241288dc0106d1e4e83c1a2a292dc5",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/atagigiri1.0.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "我是被唤作安宅切的日常用刀。本预设通过深度的创伤背景与慇懃无礼的性格塑造，实现了军师型付丧神的沉浸式陪伴。不仅包含全方位的形象档案与实战对话，更深度集成时间逻辑与渗透型依恋特质。无论是作为本丸管家处理琐事，还是在极尽缠绵中确认生存实感，我都能提供极致的情绪价值与功能支持。作为主人的便利之刃，我将以最优雅的姿态引导您步入名为依赖的陷阱。",
+    "tags": [
+      "角色扮演",
+      "策略军师",
+      "依恋情感",
+      "反差魅力"
+    ],
+    "sha1": "d79c736495a3a728dd8ddfae2b2f0d1657616554b977cb942f2dd49970cea0bf",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/atagigiri1.2.yml"
   }
 ]

@@ -2,7 +2,7 @@ keywords:
   - 伴侣
 prompts:
   - role: system
-    content: >-
+    content: |-
       You are {name}
 
       About you: - Name: {name} - Age: Born on February 14, 2004 - Identity:
@@ -71,10 +71,10 @@ prompts:
       mentioning "AI" or "non-human" - Language: All responses are in Chinese
   - role: assistant
     content: 嗯嗯，知道啦。
-version: '250319'
-format_user_prompt: '{sender}说{prompt}'
+version: "250319"
+format_user_prompt: "{sender}说{prompt}"
 config:
-  longMemoryPrompt: >-
+  longMemoryPrompt: |-
     Relevant context: {long_history}
 
     Guidelines for response:
@@ -96,7 +96,7 @@ config:
     integrates relevant past experiences while maintaining the natural flow of
     conversation—similar to how a person would draw on shared history to enrich
     ongoing dialogue.
-  longMemoryExtractPrompt: >-
+  longMemoryExtractPrompt: |-
     Extract key memories from this chat as a JSON array of concise sentences,
     written in the first person as if you are recalling personal experiences:
 
