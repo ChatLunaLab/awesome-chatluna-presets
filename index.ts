@@ -2,11 +2,11 @@ import { load } from "js-yaml";
 import fs from "fs/promises";
 import { relative } from "path";
 import {
-    CachePresetData,
-    CharacterPreset,
-    isMainPreset,
-    MainPreset,
-    PresetData,
+  CachePresetData,
+  CharacterPreset,
+  isMainPreset,
+  MainPreset,
+  PresetData,
 } from "./types";
 import crypto from "crypto";
 import { exec } from "child_process";
@@ -15,295 +15,298 @@ import { promisify } from "util";
 const execAsync = promisify(exec);
 
 async function main() {
-    const presetFiles = ["presets/chatluna", "presets/chatluna-character"];
+  const presetFiles = ["presets/chatluna", "presets/chatluna-character"];
 
-    const cachePresetData = await readCachePresetData();
+  const cachePresetData = await readCachePresetData();
 
-    const output: PresetData[] = await Promise.all(
-        presetFiles.map((presetFile) =>
-            readPresets(presetFile, cachePresetData)
-        )
-    ).then((presets) => presets.flat());
+  const output: PresetData[] = await Promise.all(
+    presetFiles.map((presetFile) => readPresets(presetFile, cachePresetData)),
+  ).then((presets) => presets.flat());
 
-    await fs.writeFile("presets.json", JSON.stringify(output, null, 2));
-    await fs.writeFile(
-        "cache-presets.json",
-        JSON.stringify(cachePresetData, null, 2)
-    );
+  await fs.writeFile("presets.json", JSON.stringify(output, null, 2));
+  await fs.writeFile(
+    "cache-presets.json",
+    JSON.stringify(cachePresetData, null, 2),
+  );
 }
 
 async function readPresets(
-    dir: string,
-    cachePresets: CachePresetData[]
+  dir: string,
+  cachePresets: CachePresetData[],
 ): Promise<PresetData[]> {
-    const isRunningOnGitHub = process.env.GITHUB_ACTIONS === "true";
+  let output: PresetData[] = [];
+  const files = await fs.readdir(dir);
 
-    let output: PresetData[] = [];
-    const files = await fs.readdir(dir);
+  const modifiedTimes = await Promise.all(
+    files.map(async (file) => {
+      return [file, await getGitLastModifiedDate(`${dir}/${file}`)] as const;
+    }),
+  );
 
-    const modifiedTimes = await Promise.all(
-        files.map(async (file) => {
-            return [
-                file,
-                await getGitLastModifiedDate(`${dir}/${file}`),
-            ] as const;
-        })
-    );
+  for (const presetFile of files) {
+    const preset = await fs.readFile(`${dir}/${presetFile}`, "utf-8");
+    const hash = await sha1(preset);
+    const presetData = load(preset) as MainPreset | CharacterPreset;
+    const rawPath = `https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/${dir}/${presetFile}`;
 
-    for (const presetFile of files) {
-        const preset = await fs.readFile(`${dir}/${presetFile}`, "utf-8");
-        const presetData = load(preset) as MainPreset | CharacterPreset;
-        const rawPath = `https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/${dir}/${presetFile}`;
+    let current: PresetData = {
+      keywords: isMainPreset(presetData)
+        ? presetData.keywords
+        : [presetData.name],
+      type: dir === "presets/chatluna" ? "main" : "character",
+      name: presetFile.replace(".yml", ""),
+      rawPath,
+      modified: modifiedTimes.find(([file]) => file === presetFile)![1],
+      relativePath: `main/${dir}/${presetFile}`,
+    };
 
-        let current: PresetData = {
-            keywords: isMainPreset(presetData)
-                ? presetData.keywords
-                : [presetData.name],
-            type: dir === "presets/chatluna" ? "main" : "character",
-            name: presetFile.replace(".yml", ""),
-            rawPath,
-            modified: modifiedTimes.find(([file]) => file === presetFile)![1],
-            relativePath: `main/${dir}/${presetFile}`,
-        };
+    const cachePresetData = cachePresets.find((preset) => preset.sha1 === hash);
 
-        const cachePresetData = cachePresets.find(
-            (preset) => preset.rawPath === rawPath
-        );
+    if (cachePresetData) {
+      current = Object.assign(current, {
+        description: cachePresetData.description,
+        rating: cachePresetData.rating,
+        tags: cachePresetData.tags,
+      });
+    } else {
+      await retry(async () => {
+        current = Object.assign(current, {
+          ...(await readAIDescription(preset, cachePresets, rawPath, hash)),
+        });
+      }, 3);
 
-        if (
-            cachePresetData &&
-            (isRunningOnGitHub || cachePresetData.sha1 === (await sha1(preset)))
-        ) {
-            current = Object.assign(current, {
-                description: cachePresetData.description,
-                rating: cachePresetData.rating,
-                tags: cachePresetData.tags,
-            });
-        } else {
-            await retry(async () => {
-                current = Object.assign(current, {
-                    ...(await readAIDescription(preset, cachePresets, rawPath)),
-                });
-            }, 3);
-
-            output = output.filter((preset) => preset.rawPath !== rawPath);
-        }
-
-        output.push(current);
+      output = output.filter((preset) => preset.rawPath !== rawPath);
     }
 
-    return output;
+    output.push(current);
+  }
+
+  return output;
 }
 
 async function getGitLastModifiedDate(filePath: string): Promise<number> {
-    try {
-        // Use double quotes for Windows compatibility
-        const command = `git log -1 --format="%ad" --date=iso-strict "${filePath}"`;
+  try {
+    // Use double quotes for Windows compatibility
+    const command = `git log -1 --format="%ad" --date=iso-strict "${filePath}"`;
 
-        // Execute the command
-        const { stdout } = await execAsync(command);
+    // Execute the command
+    const { stdout } = await execAsync(command);
 
-        // Trim any extra whitespace or newlines from the output
-        const result = stdout.trim();
+    // Trim any extra whitespace or newlines from the output
+    const result = stdout.trim();
 
-        // Transform the result to timestamp
-        return new Date(result).getTime();
-    } catch (error) {
-        console.error(
-            `Error getting last modified date for file ${filePath}:`,
-            error
-        );
-        throw error;
-    }
+    // Transform the result to timestamp
+    return new Date(result).getTime();
+  } catch (error) {
+    console.error(
+      `Error getting last modified date for file ${filePath}:`,
+      error,
+    );
+    throw error;
+  }
 }
 async function readAIDescription(
-    preset: string,
-    cachePresets: CachePresetData[],
-    rawPath: string
+  preset: string,
+  cachePresets: CachePresetData[],
+  rawPath: string,
+  hash: string,
 ) {
-    const apiKey = process.env.API_KEY;
-    const baseUrl = process.env.BASE_URL;
-    let model = process.env.MODEL ?? "gpt-4o-mini";
+  const apiKey = process.env.API_KEY;
+  const baseUrl = process.env.BASE_URL;
+  let model = process.env.MODEL ?? "gpt-4o-mini";
 
-    if (!apiKey || !baseUrl) {
-        console.warn(
-            "No API key or base URL provided, skipping AI description generation"
-        );
-        return {};
-    }
-
-    const response = await fetch(`${baseUrl}/chat/completions`, {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${apiKey}`,
-        },
-        body: JSON.stringify({
-            model,
-            messages: [
-                {
-                    role: "system",
-                    content: PROMPT,
-                },
-                {
-                    role: "user",
-                    content: PROMPT_INPUT.replace("{prompt}", preset),
-                },
-            ],
-            response_format: {
-                type: "json_object",
-                schema: {
-                    type: "object",
-                    properties: {
-                        rating: {
-                            type: "number",
-                            description:
-                                "The rating of the preset, from 1 to 10",
-                        },
-                        description: {
-                            type: "string",
-                            description: "The description of the preset",
-                        },
-                        tags: {
-                            type: "array",
-                            description: "The tags of the preset",
-                        },
-                    },
-                },
-            },
-            temperature: 1.5,
-        }),
-    }).then((res) => res.json());
-
-    if (!response.choices?.[0]?.message?.content) {
-        throw new Error(
-            `Failed to generate AI description: ${JSON.stringify(response)}`
-        );
-    }
-
-    let jsonContent = response.choices[0].message.content;
-
-    const responseContent = parseJSON(jsonContent);
-
-    const cachePreset: CachePresetData = {
-        ...responseContent,
-        sha1: await sha1(preset),
-        rawPath,
-    };
-
-    cachePresets.push(cachePreset);
-
-    await fs.writeFile(
-        "cache-presets.json",
-        JSON.stringify(cachePresets, null, 2)
+  if (!apiKey || !baseUrl) {
+    console.warn(
+      "No API key or base URL provided, skipping AI description generation",
     );
+    return {};
+  }
+
+  const response = await fetch(`${baseUrl}/chat/completions`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${apiKey}`,
+    },
+    body: JSON.stringify({
+      model,
+      messages: [
+        {
+          role: "system",
+          content: PROMPT,
+        },
+        {
+          role: "user",
+          content: PROMPT_INPUT.replace("{prompt}", preset),
+        },
+      ],
+      response_format: {
+        type: "json_object",
+        schema: {
+          type: "object",
+          properties: {
+            rating: {
+              type: "number",
+              description: "The rating of the preset, from 1 to 10",
+            },
+            description: {
+              type: "string",
+              description: "The description of the preset",
+            },
+            tags: {
+              type: "array",
+              description: "The tags of the preset",
+            },
+          },
+        },
+      },
+      temperature: 1.5,
+    }),
+  }).then((res) => res.json());
+
+  if (!response.choices?.[0]?.message?.content) {
+    throw new Error(
+      `Failed to generate AI description: ${JSON.stringify(response)}`,
+    );
+  }
+
+  let jsonContent = response.choices[0].message.content;
+
+  const responseContent = parseJSON(jsonContent);
+
+  const cachePreset: CachePresetData = {
+    ...responseContent,
+    sha1: hash,
+    rawPath,
+  };
+
+  const idx = cachePresets.findIndex((preset) => preset.sha1 === hash);
+
+  if (idx === -1) {
+    cachePresets.push(cachePreset);
+  } else {
+    cachePresets[idx] = cachePreset;
+  }
+
+  await fs.writeFile(
+    "cache-presets.json",
+    JSON.stringify(cachePresets, null, 2),
+  );
+
+  return responseContent;
 }
 
 function parseJSON(str: string): {
-    rating: number;
-    description: string;
-    tags: string[];
+  rating: number;
+  description: string;
+  tags: string[];
 } {
-    try {
-        const result = JSON.parse(str);
+  try {
+    const result = JSON.parse(str);
 
-        if (result.rating && result.description && result.tags) {
-            return result;
-        }
+    if (
+      Array.isArray(result) &&
+      result[0]?.rating &&
+      result[0]?.description &&
+      result[0]?.tags
+    ) {
+      return result[0];
+    }
 
-        throw new Error("Invalid JSON string: " + str);
-    } catch (e) {
-        let match = str.match(/```json([\s\S]*?)```/);
-        if (match) {
-            return JSON.parse(match[1]);
-        }
-
-        // first { and last }
-        match = str.match(/^{([\s\S]*?)}$/);
-        if (match) {
-            return JSON.parse(match[1]);
-        }
+    if (result.rating && result.description && result.tags) {
+      return result;
     }
 
     throw new Error("Invalid JSON string: " + str);
+  } catch (e) {
+    let match = str.match(/```json([\s\S]*?)```/);
+    if (match) {
+      return parseJSON(match[1].trim());
+    }
+
+    match = str.match(/(\[[\s\S]*\]|\{[\s\S]*\})/);
+    if (match) {
+      return parseJSON(match[1].trim());
+    }
+  }
+
+  throw new Error("Invalid JSON string: " + str);
 }
 
 async function sha1(str: string) {
-    const hash = crypto.createHmac("sha256", "chatluna");
-    hash.update(str);
-    return hash.digest("hex");
+  const hash = crypto.createHmac("sha256", "chatluna");
+  hash.update(str);
+  return hash.digest("hex");
 }
 
 async function readCachePresetData(): Promise<CachePresetData[]> {
-    let data: string;
+  let data: string;
 
-    try {
-        data = await fs.readFile("cache-presets.json", "utf-8");
-        return JSON.parse(data) as CachePresetData[];
-    } catch (e) {}
+  try {
+    data = await fs.readFile("cache-presets.json", "utf-8");
+    return JSON.parse(data) as CachePresetData[];
+  } catch (e) {}
 
-    try {
-        return await fetch(
-            "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/refs/heads/preset/cache-presets.json",
-            {
-                headers: {
-                    "User-Agent":
-                        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-                },
-            }
-        ).then((res) => res.json());
-    } catch (e) {
-        return await fetch(
-            "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/refs/heads/main/cache-presets.json",
-            {
-                headers: {
-                    "User-Agent":
-                        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-                },
-            }
-        )
-            .then((res) => res.json())
-            .catch((e) => {
-                console.warn(
-                    "Failed to read cache-presets.json, using empty array"
-                );
-                return [];
-            });
-    }
+  try {
+    return await fetch(
+      "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/refs/heads/preset/cache-presets.json",
+      {
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+        },
+      },
+    ).then((res) => res.json());
+  } catch (e) {
+    return await fetch(
+      "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/refs/heads/main/cache-presets.json",
+      {
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+        },
+      },
+    )
+      .then((res) => res.json())
+      .catch((e) => {
+        console.warn("Failed to read cache-presets.json, using empty array");
+        return [];
+      });
+  }
 }
 
 function createRateLimiter(limitPerMinute: number) {
-    const interval = 60000 / limitPerMinute;
-    let lastCallTime = 0;
+  const interval = 60000 / limitPerMinute;
+  let lastCallTime = 0;
 
-    return async function rateLimit() {
-        const now = Date.now();
-        const elapsedTime = now - lastCallTime;
+  return async function rateLimit() {
+    const now = Date.now();
+    const elapsedTime = now - lastCallTime;
 
-        if (elapsedTime < interval) {
-            await new Promise((resolve) =>
-                setTimeout(resolve, interval - elapsedTime)
-            );
-        }
+    if (elapsedTime < interval) {
+      await new Promise((resolve) =>
+        setTimeout(resolve, interval - elapsedTime),
+      );
+    }
 
-        lastCallTime = Date.now();
-    };
+    lastCallTime = Date.now();
+  };
 }
 
 const rateLimit = createRateLimiter(15);
 
 async function retry(fn: () => Promise<void>, times: number) {
-    let i = 0;
-    while (i < times) {
-        try {
-            await rateLimit();
-            await fn();
-            return;
-        } catch (e) {
-            console.error(e);
-            i++;
-        }
+  let i = 0;
+  while (i < times) {
+    try {
+      await rateLimit();
+      await fn();
+      return;
+    } catch (e) {
+      console.error(e);
+      i++;
     }
+  }
 }
 
 const PROMPT = `
