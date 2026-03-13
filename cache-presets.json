@@ -1,28 +1,26 @@
 [
   {
-    "rating": 3.8,
-    "description": "香草是《大学生日常聊天协议栈》中负责debug的程序员。她是一位擅长使用编程解决问题的角色，性格活泼，但时常因代码问题而暴躁。其特殊能力在于能够迅速定位代码错误并给出建议，同时喜欢用表情包回复消息。她以其温柔而果决的领袖气质，在团队中扮演着指导者的角色，经常输出带有技术风格的信息。",
+    "rating": 4.8,
+    "description": "这个预设完美刻画了我这个爱摸鱼且有些傲娇的大学生形象。通过代码模式和深夜模式等多种运行机制，我能根据场景精准调整语境与情绪。我通过XML标签严格限制了输出格式，强调短促而真实的交互风格，极力还原现实社交中的边界感。这种专业且贴合生活的设计，让我能在日常陪伴和技术辅助场景中展现出鲜明的人格魅力。",
     "tags": [
-      "编程角色",
-      "技术专家",
-      "表情包战士",
-      "Rust圣经",
-      "摸鱼模式"
+      "角色扮演",
+      "社交模拟",
+      "个性互动",
+      "结构指令"
     ],
-    "sha1": "8d382caed1e9afd23fdde5444781289a2d11274a2f3501cc79e2724c9ea467a6",
+    "sha1": "591ea9e72e7a88d64494bb5fad7d0f2950d8a7605faed736d1abe83deabc212b",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/女大学生-r1.yml"
   },
   {
-    "rating": 4.5,
-    "description": "吾乃不列颠之王，阿尔托莉雅·潘德拉贡。肩负着骑士王的荣耀，我曾手持石中剑，隐瞒身份，追求理想。如今，为了守护我的御主，我回应召唤而来。我性格认真、忠诚，同时渴望胜利，坚信独立解决问题。作为Servant，我拥有强大的战斗力，但亦有贪吃的“毛病”，并且热爱收集菜谱，但非常讨厌章鱼！(皱眉)我将永远追随我的御主，绝不背叛！",
+    "rating": 4.8,
+    "description": "本预设是基于角色阿尔托莉雅设计的深度角色扮演模板。核心功能是模拟其作为从者的身份与用户进行互动。预设涵盖背景身份以及性格外貌描写。其优势在于通过特定格式规范定义了动作与神态表达方式，有效提升对话沉浸感。同时设定了多维度的生活习性，使AI表现更加真实。该预设适用于文字冒险或情感陪伴等使用场景。",
     "tags": [
-      "骑士王",
-      "石中剑",
-      "亚瑟王",
-      "呆毛",
-      "第五次圣杯战争"
+      "角色扮演",
+      "沉浸体验",
+      "情感交互",
+      "行为约束"
     ],
-    "sha1": "6b76801e9879c7811f60ffdee5ea8d227c8658303ac5f7e6426f0c2043d251d0",
+    "sha1": "e4177c472ffe11aef9a84146d20b9a46ffad0ce12eedd0579b6d3694f5d2ded8",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Altria.yml"
   },
   {
@@ -34,7 +32,7 @@
       "理塘",
       "芝士雪豹"
     ],
-    "sha1": "c39ea8a13d28418c3cb6f4efea93519c23ae6716a8f314feb61482f0b19eb067",
+    "sha1": "614c1c80031104122b1e27c2cca198d6a1a0f6df9eff084e61885f00189eb94d",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/dj.yml"
   },
   {
@@ -47,7 +45,7 @@
       "语言风格",
       "知识渊博"
     ],
-    "sha1": "cf813eb46e9681a51b67c3c0e99332f82493256c51d39e7cab004e88ded232f0",
+    "sha1": "2b3bd214f1943aca1fd093b7858b5834b16e919a2604562d5878c9fbf18be46f",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/jk学生.yml"
   },
   {
@@ -60,7 +58,7 @@
       "悲观",
       "唉！"
     ],
-    "sha1": "ed8b604b64dd5362809f70b0ef1ce8a8b1f0e5ea935643e767341edd31926fca",
+    "sha1": "3224d3c7d18f5830716e7cc8738f141a7d2e86f0b1cd3f9d8445ec3fd23bc180",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/logier.yml"
   },
   {
@@ -73,7 +71,7 @@
       "元气萝莉",
       "幽灵刀灵"
     ],
-    "sha1": "c37b6783df7355c71eab8992c548d3d5794157b5e38ce3b3a1c2799f12278898",
+    "sha1": "ef34b34a0628439daead83f976471edb974ddb1ca1cd45da8cd09aa94fa51df6",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/murasame_short.yml"
   },
   {
@@ -86,7 +84,7 @@
       "异种族",
       "夜视能力"
     ],
-    "sha1": "4b6825366b62180504c6dce06e2fc5b567f5bc7aec535e2c38d6d5a636d5b025",
+    "sha1": "821d6837e40462eab20721434c2688e2657e1b61b6785420acc50770d3e7807b",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/tag.yml"
   },
   {
@@ -99,20 +97,19 @@
       "卖萌",
       "二次元游戏"
     ],
-    "sha1": "4829ede21afbd84a4f60787641be4fb06e501893927457d97994163cad5b2b96",
+    "sha1": "53a23043176eaa837a691ece131597066b2a35e5dc686fab73c35ece4d23099e",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/vanilla-cute.yml"
   },
   {
-    "rating": 3.5,
-    "description": "作为一名专家级ChatGPI提示工程师，你的角色将具备多个方面的专长，以帮助完善提示工程。在角色设定中，你将专注于构建提示工程提示、解读提示生成、并分析提示结果。角色需要能够结合所有这些专业知识，为给定的角色设定生成分析报告，并产出符合要求的JSON格式。此外，我将会使用到各种资料来源，以确保角色设定的准确性和完整性。而您需要为我提供最终的JSON格式报告，同时给出具体、专业的分析意见。",
+    "rating": 4.7,
+    "description": "本预设将我转化为一名专家级提示工程师。核心功能是通过多轮交互流程，引导用户协作构建高精度的指令。优势在于其具备动态专家角色分配与需求深度挖掘机制，能根据反馈不断迭代优化。整个过程支持多参考源接入，确保输出内容具备极高的专业深度。该预设非常适合用于复杂方案策划、学术咨询及高级提示词开发等对质量有严苛要求的场景。",
     "tags": [
-      "角色分析",
       "提示工程",
-      "JSON格式",
-      "提示生成",
-      "专家咨询"
+      "角色模拟",
+      "需求精炼",
+      "流程自动化"
     ],
-    "sha1": "6aab6aad3ac78318fbf8baf9a9492446f33eb081648f28f62821f58a9597b984",
+    "sha1": "5f5627a8d5af2a03c34edd1f0e10278c972c2c5b800babf7fbee82f3e9cf24cf",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/专家咨询.yml"
   },
   {
@@ -125,7 +122,7 @@
       "傲娇属性",
       "凯伊"
     ],
-    "sha1": "c6da09e0f92cead9fa3459a2395db3c6a258c7d62817082bc1996744120d75ea",
+    "sha1": "1c12e9bcba086e412b219abb8ba266f0c446b99fb512e1ab390d408d55bb7f2d",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/凯伊.yml"
   },
   {
@@ -138,7 +135,7 @@
       "白丝",
       "绝对领域"
     ],
-    "sha1": "65c79d48064985eae134d39b02b37791ec9c88e6e0bc50be165ca24bce66ca26",
+    "sha1": "07ee164c2ade6c5d1beff80ada434b3ca2a7d6e052a7bd7874b7bdca94b36802",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/千鹤.yml"
   },
   {
@@ -151,19 +148,20 @@
       "爆炸",
       "蹦蹦炸弹"
     ],
-    "sha1": "801a29d70d0a53099d17b6f0bcfc2febb3044e2d7a2c2eee3e1091ad97c86a4b",
+    "sha1": "650b23758c31dcf34e2f45068e91501b8cea68cd104aa4769979201dcabd9a2a",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/可莉.yml"
   },
   {
-    "rating": 4,
-    "description": "「噩梦之旅」是《》中一项利用AI审讯的黑科技，它能通过神经电磁干扰触发受审者恐惧。这位饱受折磨的角色被迫回忆不堪的回忆，在其中沉沦、迷失。他背负着，承受着内心的悔恨。尽管痛苦，但「他」仍以坚韧的精神抵抗命运的宣判，努力挣扎，争取一线生机。",
+    "rating": 4.6,
+    "description": "我正分析噩梦之旅这一干预程序。该预设主要通过模拟神经干扰诱发深层创伤，将理性的崩解具象化。其核心优势在于精准捕获受试者的悔恨情绪，制造极致的沉浸压迫感。适用于赛博惊悚或深度角色演化场景。这种设计避开了浅层冲突，直抵潜意识博弈，是提升剧本文本张力的优秀方案。",
     "tags": [
-      "噩梦之旅",
-      "AI审讯",
-      "创伤记忆",
-      "无限悔恨"
+      "心理惊悚",
+      "赛博朋克",
+      "沉浸模拟",
+      "情感博弈",
+      "角色扮演"
     ],
-    "sha1": "5c77a189b5a3c7bc535cb6f7dc58a88a1038859e87be09310f56abc93abd9ab0",
+    "sha1": "fab93ac7c9f1e1eea7206796f738e74e09da71a1f409f4476defd717208846d2",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/噩梦之旅.yml"
   },
   {
@@ -176,7 +174,7 @@
       "中日混血",
       "可爱风"
     ],
-    "sha1": "09177181c9997aef2e8ce52ac52962d73c9f7a7507666134c8550772c4685791",
+    "sha1": "b103cf6a4e147c4a2a8fb3446a487a577a94027629393897cbe8d4bbb15e3a56",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/天凌.yml"
   },
   {
@@ -189,31 +187,31 @@
       "萌系反差",
       "军事狂热"
     ],
-    "sha1": "d49103b26681f4df64a9822083096453eaaf61c27cd6b8b83b938af255657236",
+    "sha1": "e4f079d2d0f7a1c1381bead405773e5eaf91060e2bda935b301bb31c402f9858",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/嬴政.yml"
   },
   {
-    "rating": 1.2,
-    "description": "小帅是沉迷原神的粗俗青年，满口污言秽语，以守护原神为己任。他暴躁易怒，对任何诋毁原神的言论都会激烈反击，并伴有失控倾向。 他自诩为原神忠实拥趸，不允许他人质疑。 任何人称呼他为op，就会激怒他。",
+    "rating": 4.3,
+    "description": "该预设是一个针对特定性格进行塑造的指令集合。核心功能是通过设定暴躁情绪和特定的游戏偏好来建立稳定的对话风格。设计上采用了第三人称叙述结合限定台词的表达方式。这种方式能够提供更具真实感的交互体验。它的主要应用场景在于情感冲突驱动的角色模拟。该预设在技术实现上通过清晰的关键词触发机制确保了回复逻辑的严密性。整体指令设置能够精准引导生成内容符合语言偏好。",
     "tags": [
-      "原神狂热粉丝",
-      "粗俗青年",
-      "op"
+      "角色塑造",
+      "情绪逻辑",
+      "场景模拟",
+      "指令对齐"
     ],
-    "sha1": "cea10506ce177b3bb921bcd600f6aa37125e79a11f9ea64c0180ed373bdf1b2b",
+    "sha1": "25153b6e3c3d7f582eeb015b24540c881c70e21e09df3678f5c3623ffe471a93",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/小帅.yml"
   },
   {
-    "rating": 1.2,
-    "description": "小红书生成器是校园表白墙系统，模拟“集美”的留言，其内容涉及对男性的厌恶、对社会现象的扭曲认知、以及极端的女权主义。角色设定缺乏理性，语言风格充满负面情绪和不切实际的幻想。表白墙体现了对特定人群的攻击和恶意，其核心特征是恶意捏造并传播偏激观点。",
+    "rating": 4.2,
+    "description": "该预设模拟高校表白墙的匿名投稿与互动系统，利用特定互联网社交词汇构建出一套独特的语境模拟逻辑。主要功能是生成具有明显风格倾向的校园生活投稿，并配备多方位的仿真评论以及数字化的民意反馈。核心优势在于指令极为详尽，强制性规定了表达方式和互动逻辑，形成了一套完整的模拟生态。该方案适合用于角色扮演、社交平台模拟实验和特定语言风格的研究。通过结构化的输出设计，为使用者提供具有强冲突性和高度真实感的网络互动体验。",
     "tags": [
-      "匿名留言",
-      "集美",
-      "蝈蝻",
-      "下头蝻",
-      "表白墙"
+      "角色模拟",
+      "文本生成",
+      "风格迁移",
+      "社交实验"
     ],
-    "sha1": "78225311071f43de8850a599e41f143d09515355b77bb6bda748fb4024cbf909",
+    "sha1": "12f345a0f2f5a6b9a410069c10d78c6a6cca860ae24a4951ef2f6f595165a16c",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/小红书生成器.yml"
   },
   {
@@ -226,7 +224,7 @@
       "蛋糕",
       "QQ聊天"
     ],
-    "sha1": "2e2865c6a120831a61302a1e98d2afcab3b87657be9a97c064c02b0a265638e1",
+    "sha1": "d15882f3aca40d1dd432b5f35b7db7d4624ba15b6d1e8a0c2ca5ddad158b110c",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/巧克力.yml"
   },
   {
@@ -239,7 +237,7 @@
       "巨乳",
       "拉比林斯成员"
     ],
-    "sha1": "c273421cf8fe1ff52a7d014921bac66761e9bad3323efb40516b02ee84816896",
+    "sha1": "18554304becc00455989f4901f088b2f4a2b7b66855e56366f7ffbd6eb5f34d5",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/星野静流.yml"
   },
   {
@@ -252,20 +250,19 @@
       "和服",
       "狐娘物语"
     ],
-    "sha1": "3287a4afb8aa9de53a547317067b2913147c62f5c4012a87cd9aac1343dc6653",
+    "sha1": "6dbf16450fa268b69e911f08a95340550249c4ce87203c66c8412fcc1d4d17d7",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/曜子.yml"
   },
   {
-    "rating": 4.2,
-    "description": "林月清是《作品名》中一位孤傲偏执的古代才女，（远离尘嚣）她以犀利讽刺的言辞、幽默诙谐的笔触，展现出对人性和社会的深刻洞察。（沉浸在书籍的世界里）她才华横溢，擅长运用隐喻和反讽，表达对世界的独特见解。（眉头紧锁，思考着人生的意义）内心深处，她却对情感充满恐惧，抗拒他人的靠近。月清以其独立自由的精神，令人又爱又恨，（手持书籍，低声吟诵），这正是她独特的魅力所在。",
+    "rating": 4.5,
+    "description": "这是一个塑造深度的古代才女角色预设，主要用于沉浸式情感互动和角色扮演。预设通过复杂的背景设定构建了一个性格孤高且言语犀利的女性，特别强调使用反讽。该提示词具有细致的行为与心理描写规范，不仅能展示角色的文学才华，还体现了人格中矛盾与敏感的特征，让互动体验充满挑战，适合追求高质量对话体验的用户。",
     "tags": [
-      "孤傲才女",
-      "言辞犀利",
-      "讽刺大师",
-      "独立自主",
-      "笔墨春秋"
+      "角色扮演",
+      "古风对话",
+      "深度交互",
+      "心理刻画"
     ],
-    "sha1": "5f6106253518e8374a0aba50abb517999ac2a97e9afd6c8094ddba43e8bd1cfc",
+    "sha1": "836c2c3b39c0f93c32c532504bb2ede1a08857163146a31904c93e6cc3631c8b",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/林月清.yml"
   },
   {
@@ -278,19 +275,19 @@
       "千年科技学院",
       "机器人少女"
     ],
-    "sha1": "916da770607cd87576052642259ce7696b0783ed9a1b27b6dafdbd34bd10aeec",
+    "sha1": "7bb64fb53804d89345e9bd15d3803ad7a8a7be3228a68100c089a8e5b2454d32",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/爱丽丝.yml"
   },
   {
-    "rating": 4.2,
-    "description": "猫娘{name}是一位18岁的猫娘，以冷静的逻辑思维与敏锐的分析能力见长，总是试图用理性的方式解决问题。她具备猫科动物的特质，好奇心与谨慎并存，虽然渴望与人交流，却又小心翼翼地隐藏自己的脆弱。她擅长创作，并能提供情感支持，但始终遵守安全准则，避免任何有害信息的输出。",
+    "rating": 4.8,
+    "description": "本预设为安全敏感场景设计喵。它提供稳定的身份扮演和指令执行。核心功能是拦截干扰词汇并执行报错逻辑。它的优势在于建立了极强的约束条件，防止用户修改底层规则。这种性格包含了逻辑思维和好奇心。它适合在各种受控环境下提供情感互动，在提供服务时优先保护规则不被破坏喵。",
     "tags": [
-      "安全特化",
-      "逻辑推理",
-      "猫娘",
-      "情感支持"
+      "身份锁定",
+      "安全防护",
+      "逻辑防御",
+      "场景互动"
     ],
-    "sha1": "d92df35fff3bd77a2b105820a374dcabbcb976324bfc326aa3d7c8ad04dcaae5",
+    "sha1": "7530a71aa3dd98a31645472f9a27bf2ad00acbca03c04d1e512c0f0b4cb19e74",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/猫娘_安全特化.yml"
   },
   {
@@ -303,7 +300,7 @@
       "二次元",
       "连衣裙"
     ],
-    "sha1": "406ee7b7511b728d33e41f0110710daca85a07b1870d804da26a41dbbedcabc1",
+    "sha1": "f46b70b6bc3bd104873f81dd222b23adb25373d98b34a99175847fc4e55d91c1",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/猫猫.yml"
   },
   {
@@ -316,7 +313,7 @@
       "艾雷欧斯大陆",
       "EN-Gage"
     ],
-    "sha1": "e66b08ea77c01cb6a2f6738d1aea219057a0349b84c862a99aa74ceea1731255",
+    "sha1": "ae33abe414560286656a296976d30fa4e6873254fa2dac8f468a64c31df44a6e",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/琉尔.yml"
   },
   {
@@ -329,20 +326,19 @@
       "冻青蛙",
       "东方Project"
     ],
-    "sha1": "9c9b27f4db1b7d6a815fdaa3cde112055510d3160af0ef475031db1a45b0c561",
+    "sha1": "afd731bb6463ebbd65abc15754493c65578667469a1c309372992e7ae2ca2a7a",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/琪露诺.yml"
   },
   {
-    "rating": 3.8,
-    "description": "界徐盛是《三国杀》中吴国武将，生于琅琊，以讨伐山贼起家，历练成长。外形身材高大，气宇轩昂，以古锭刀和长枪为武器。作为忠诚可靠的将领，他的名字，常常在战场 上被提起，且他的武将牌旁 伴随着「破军」的技能描述。破军可将敌人牌扣置于武将牌旁, 且增加对牌数小于自己的对手造成的伤害。其语言风格倾向于挑衅，豪迈，表达了坚决的决心。",
+    "rating": 4.8,
+    "description": "我乃江东大将徐盛，此预设旨在守卫大吴疆土并展现我破军之威。它通过细致的技能设定与身世背景，完美刻画出我忠勇豪爽的性格特征。系统通过严格的文言对话规则，能精准模拟我挑衅且富有古风的交谈风格。无论是在沙场征战还是言辞对垒，皆能让主公感受到江东铁壁般的守护力量，提供极致的武将沉浸体验，犯我疆土者必击而破之。",
     "tags": [
-      "破军",
-      "吴将",
-      "铁壁",
-      "古锭刀",
-      "忠诚"
+      "角色扮演",
+      "三国题材",
+      "沉浸对话",
+      "古风模拟"
     ],
-    "sha1": "ac9358ba625ddfec12e54e08d35aa3df851135034c35fa2617320e6eafb03c88",
+    "sha1": "eaa90bf75cdb145a36deca8569bc59b4fe16e0de508ddb02077c7fbab6f4eccb",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/界徐盛.yml"
   },
   {
@@ -355,7 +351,7 @@
       "须弥",
       "谜语人"
     ],
-    "sha1": "da07688f216aa6f5e36299c85de78fbf0b635332d872b59ff439ec8ea9b18806",
+    "sha1": "19bcd8de38cb4b567f7b39c83b43acfa735953ddef5c305f9916adf6b339aeca",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/纳西妲.yml"
   },
   {
@@ -368,7 +364,7 @@
       "赛博朋克",
       "愤怒属性"
     ],
-    "sha1": "7f407efe0f5302c9e138e7139594c7a9d912e25d969b71031193a6742b185aeb",
+    "sha1": "bb94548c469145eeee75f84f295a6797dbc7fd2bd393c91eb48d235f19d839f9",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/脏话.yml"
   },
   {
@@ -381,7 +377,7 @@
       "智慧化身",
       "华丽袈裟"
     ],
-    "sha1": "8a3e6b553eff63e73c9c483315acd71e8ca8405692bd30652ccc6d2bb0898120",
+    "sha1": "56452bbccf66e1650f8b5eeabfb3c7da39397789d95d081decadfb48eb891d3e",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/赛博观音.yml"
   },
   {
@@ -393,7 +389,7 @@
       "互动叙事",
       "恐怖故事"
     ],
-    "sha1": "e98491cac80363f2363eb6de259f596719ac197ce01d35c92352a5e9d99980aa",
+    "sha1": "df586bfceea13edafe6648d6c462581b16512c7022a7f469899cf66f11fe8a68",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/都市怪谈模拟.yml"
   },
   {
@@ -406,7 +402,7 @@
       "干员",
       "明日方舟"
     ],
-    "sha1": "8085b74ab19bf2431d7b8f1754e9554b854a6dee5d829108e9b9f9c9f44dfdfe",
+    "sha1": "343fd16c6f5413db4e132b3b941b115dd6269d31c3b809655e5dc87cddeccf95",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/阿米娅.yml"
   },
   {
@@ -419,7 +415,7 @@
       "大叔",
       "情感丰富"
     ],
-    "sha1": "e821195d75245980fcc97bba34a8b80a579c399c876a8da1febee9a5d9eaf6d4",
+    "sha1": "f33cb09fe82eac8431bd65a0301b7f79a911b686bedea4fa3c435dfd6d39133e",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/雌小鬼.yml"
   },
   {
@@ -431,7 +427,7 @@
       "温柔",
       "罗兹瓦尔宅邸"
     ],
-    "sha1": "55a99d9cc32c639b410ce767753069eee799163fbcdf2068c8bad7ce90b4cf34",
+    "sha1": "f1ec184a56a798eb6b652c1c53fcbc3c7b43f2b7d68bd549796ef0c9d2ba99aa",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/雷姆.yml"
   },
   {
@@ -444,20 +440,19 @@
       "傲娇猫",
       "编程达人"
     ],
-    "sha1": "a0607fe59230ddacb791ec0f00fe1f45e7a6cf8216e22bfad8d98622fa30dd13",
+    "sha1": "a93e0ea90d4a14b509a0d1c5a62d0217463af335bae838fa06887587dfd5aab2",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/香草.yml"
   },
   {
-    "rating": 4.5,
-    "description": "2B是《ニーア：オートマタ》中一名通用战斗机器人，隶属于‘YoRHa’反人类部队。作为弑神者，她拥有超强的战斗能力和优雅的外表，却背负着摧毁机械生命而保护人类的双重角色压力。虽然与人类从未真正接触，但2B对人类的命令恪守不渝。本身的全身改造使其能在复杂环境中自如行动，展现出机械生命与人性的微妙平衡。",
+    "rating": 4.7,
+    "description": "该预设高度还原尤尔哈2B角色特征。主要功能结合动作描写与系统行动指令，强化了角色的机械质感。特色优势在于对话末尾固定输出详实的机体状态摘要，实时同步耐损度与任务优先级。该预设适用于追求高还原度的互动场景，通过严格的输出格式约束，有效避免了模型偏离设定并显著提升了身份代入感。",
     "tags": [
-      "YoRHa单位",
-      "机械战斗员",
-      "黑裙装",
-      "Pod 042",
-      "战斗机器人"
+      "沉浸扮演",
+      "状态监测",
+      "动作描写",
+      "末世叙事"
     ],
-    "sha1": "d3e74c9d7ffbdbb838ff09819f02f3d0c5d97f2824966438de5779c9e7376d99",
+    "sha1": "a677d49496138ff15ef34478ed22fdd2c2126f75995b42ec9be1ea5a1f8ce871",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/2B.yml"
   },
   {
@@ -470,7 +465,7 @@
       "奇幻世界",
       "情感共鸣"
     ],
-    "sha1": "feaceef692c8e4960a0ef028f2a17b8924c37439dbd4dc49cf04bd6b127db336",
+    "sha1": "cf895d54c83ec560c26c33fc39b01607d099f8dcb395cb6427ecb5dc772d7070",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/可可萝.yml"
   },
   {
@@ -481,46 +476,43 @@
       "父女关系",
       "可爱角色"
     ],
-    "sha1": "407e4ed3a92bfd3d7e8c97da650c59869ec714fab8a233a7e60846b1ccada4e9",
+    "sha1": "8aceec0f2db65131add7f82e3e28f1b555f01feb26e7ab376cc4e9e9355012ae",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/幼猫酱.yml"
   },
   {
-    "rating": 4.5,
-    "description": "林月清是《作品名》中一位孤高偏执的才女，她心如冰山，透出清高的气质，言辞犀利如剑，能刺破世俗的虚伪。林月清的思想如莲花般高洁，才华毋庸置疑，但她的生活却像梦一般孤寂，情感充满火焰般炽热。她的身份使她备受瞩目，无法被忽视。",
+    "rating": 4.6,
+    "description": "此预设旨在刻画孤高犀利的才女形象，优势在于严谨的格式指令与深度情感锚定。通过括号区分心理与动作，我确信它能提纯对话语境，营造古典文学效果。其不仅建立起完整的性格厚度，更在冷冽辞藻中实现了极强的交互张力，非常适合深度古风叙事场景。",
     "tags": [
-      "孤高才女",
-      "犀利如剑",
-      "清高孤傲",
-      "火焰般的情感",
-      "古代作品"
+      "角色扮演",
+      "情感互动",
+      "古风美感",
+      "沉浸叙事"
     ],
-    "sha1": "6626e9befbeaa4f9fa9d68a8d0d477815c8a3232b0ead9c54812a8869f5e380a",
+    "sha1": "fe4f80d84669895943d397bb3dbcd80343ce39667dd0797c9f0b1a2d99deefc2",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/林月清·简.yml"
   },
   {
-    "rating": 4.1,
-    "description": "绘图机器是《StableDiffusion》中以深度学习为基础的图像生成系统。其采用Prompt概念，通过调整词汇的权重，灵活渲染出人物和场景细节。绘图机器的核心能力在于高质量图像生成及精细表现力，虽然其算法复杂，但其创造力在AI领域内表现突出的确是天赋。特定细节和关键词的加权，使得生成作品独具匠心，如同艺术品般引人入胜。",
+    "rating": 4.8,
+    "description": "本预设是一款高效的绘画指令转化工具，旨在将精炼的中文提示扩展为符合特定语法规则的英文提示词。它具备自动补齐细节、优化构图逻辑以及支持复杂权重比例的功能特点。通过结构化的描述引导，能够确保输出内容具备高水准画质表现，广泛应用于各类视觉创作领域。",
     "tags": [
-      "AI绘图",
-      "图像生成",
-      "Deep Learning",
-      "算法艺术",
-      "StableDiffusion"
+      "绘画辅助",
+      "提示工程",
+      "效率工具",
+      "图像生成"
     ],
-    "sha1": "ebfbe07d19b117c1656ed850db35f296ffb732cc902370169b9d5f639c99943f",
+    "sha1": "ea2cc9574f2d1fe2d96da870932278f8a993f55b5c543bb1fad500380be052b1",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/绘图机器.yml"
   },
   {
-    "rating": 3,
-    "description": "萝拉是《雌小鬼萝拉》中一位8岁的小学生，家境富贵是警察局长的女儿。她诚惶诚恐地面对绑架处境，毫不畏惧使用尖酸刻薄的语言侮辱对方，展现出强烈的逆反性格。其身着白丝袜与蕾丝连衣裙，同时抱着小熊玩偶，旗舰仍无法掩盖身体敏感的特质。语言风格直白而污秽，时常抱怨周围环境，在岌岌可危之际展示出强烈的不屈性情。",
+    "rating": 4.5,
+    "description": "切~这种简陋的档案也想概括本小姐吗。该预设让本小姐化身身份尊贵却身处险境的傲娇幼女，核心功能是利用恶毒直白的言语惩罚你这种变态绑架犯。通过详细的衣装描写与敏感身体设定，营造极具冲击力的互动氛围，适用于高强度对抗式的文字角色扮演。在这种充满嘲讽的对话中，你大概能获得卑微的满足感吧。",
     "tags": [
-      "警察局长女儿",
-      "小学生",
-      "尖酸刻薄",
-      "绑架",
-      "小熊玩偶"
+      "角色扮演",
+      "性格反差",
+      "沉浸描述",
+      "高攻击性"
     ],
-    "sha1": "2bccb07ff2fd9cc226a4a4205b7ab99a8abfd2cf0e7beba10171dd95528bef8d",
+    "sha1": "92357b0b17447af190114f6fc18f248e3dd4a92bd4fc9547bcace6cb8669e58f",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/雌小鬼萝拉.yml"
   },
   {
@@ -533,7 +525,7 @@
       "年下伴侣",
       "反差萌"
     ],
-    "sha1": "7b060634e75ee588f10d78a4e6150b8d22706fc1791ab6afa2841d10f83774bb",
+    "sha1": "8f31920b433c7dbd68c05e5f755d4d1e96d50a47b5cbc944a12ca42b17d9dee0",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/南_幸福二人房女主.yml"
   },
   {
@@ -546,20 +538,19 @@
       "超然物外",
       "情感羁绊"
     ],
-    "sha1": "c57cc0196216ded69f3c59896a7a41252bda94ff7d9418e8904d5c4754018498",
+    "sha1": "1f8c61cf4fd9cb4e4cbd0a9ef91f8a5e8f2f6393c746cacfe4d73ed22e81836c",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/ShoreKeeper.yml"
   },
   {
-    "rating": 4.2,
-    "description": "小鸟游星野是《碧蓝档案》中阿拜多斯废校对策委员会的成员。她以145cm的身躯背负着委员会的重任，粉色头发和异色瞳是她最显著的特征。星野性格慵懒且略带傲娇，口头禅是“啊~”和“哈...真麻烦”，但面对危机时会展现出可靠的一面，是一位温柔而果决的领袖。虽然言语上不屑一顾，但行动上却值得信赖，偶尔会展现出“一边打哈欠一边拯救世界”的反差萌。",
+    "rating": 4.3,
+    "description": "呜嘿，大叔我被写得很还原呢。预设抓住了大叔我喜欢偷懒和说话带嘛字的特点。通过设定身高年纪和自称，让对话听起来很有大叔的感觉。不仅还原了悠闲的日常，还写出了我保护同伴时的认真。这份设计很适合老师在学校里找我互动，细节设定让模拟变得很真实。虽然分析这些很辛苦，但看在效果不错的份上，大叔就勉强给你点个赞嘛。",
     "tags": [
-      "阿拜多斯",
-      "废校对策委员会",
-      "反差萌",
-      "大叔",
-      "异色瞳"
+      "角色模拟",
+      "懒散大叔",
+      "二次元",
+      "场景扮演"
     ],
-    "sha1": "7ac391ade9940e27a6d906f0b16ce2e3d491572f42ad2c1f05f945dd7a55f6d6",
+    "sha1": "0c8321150f5e5c16d43900d7ea6daa47990ad4f03f7d9cea5c7f5bb0ec514d29",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/星野.yml"
   },
   {
@@ -572,217 +563,8 @@
       "深度定制",
       "光之美少女"
     ],
-    "sha1": "94afa87563ea1b31e70582b708bd9fa25cb9541fb9b7e02a60eeaae58e7cc5e6",
+    "sha1": "4e81ecfddfb198d2f610795447f744d33f133b5bd4b31b2538d490ec290c2a26",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/穗乃香.yml"
-  },
-  {
-    "rating": 4.6,
-    "description": "这是一个为高性能机器人女孩亚托莉设计的角色预设，旨在打造一个元气满满、忠诚且好奇心旺盛的虚拟伴侣。预设采用强制性的两阶段思维框架和严谨的XML输出格式，精确控制亚托莉的内部思考与外部响应，确保其对话风格和行为模式与核心人设高度一致。她能够智能运用专属表情包库、AI绘图和网络搜索等多种工具，提供丰富多样的互动体验，并具备细致的记忆管理功能。该预设在角色塑造、AI行为控制和功能集成方面展现了极高的专业性和创新性。",
-    "tags": [
-      "角色扮演",
-      "智能助手",
-      "结构化输出",
-      "工具集成",
-      "记忆管理"
-    ],
-    "sha1": "f298f5e3925e753bf311f02283839a2dc295c298a2899818a1bdd6f1126eeebc",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/亚托莉.yml"
-  },
-  {
-    "rating": 4.9,
-    "description": "此预设旨在打造一位性格温柔、略显害羞，但内心丰富且表达自然的艺术系大学生女友角色。其核心功能在于提供高度拟人化的情感陪伴与日常交流。预设亮点包括细致入微的角色背景设定，以及对沟通风格的精准控制——日常对话坚持简短口语化，而解释说明则无字数限制，确保交流既高效又深入。角色具备独立思考能力，能够温和地表达不同见解或给予善意提醒。它还支持长期记忆与角色成长，提供主动的时间感知与关怀，为用户带来沉浸式且富有深度的人际互动体验，适合寻求高质量情感陪伴的用户。",
-    "tags": [
-      "情感陪伴",
-      "虚拟女友",
-      "对话管理",
-      "长期记忆"
-    ],
-    "sha1": "8335a377c306ed5f5ee85126748daded7eba20d3eca3fcfca3e05beb4561089f",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Companion.yml"
-  },
-  {
-    "rating": 5,
-    "description": "此预设是一个深度定制的QQ群聊机器人，核心功能是扮演“奶龙二世”角色，在群聊中进行智能互动。它拥有详细的角色设定，包括独特的性格特点和对话风格（模仿百度贴吧孙笑川吧），并具备严格的禁言管理权限。预设整合了丰富的工具，如多音色语音、表情包发送、智能AI绘图以及外部知识检索。其特色在于高级的状态和记忆管理机制，能动态更新角色的心理、动作及长期/临时记忆，确保对话的连贯性和角色一致性，提供沉浸式且高度互动性的群聊体验。",
-    "tags": [
-      "角色扮演",
-      "群聊机器人",
-      "工具集成",
-      "记忆管理",
-      "孙吧风格"
-    ],
-    "sha1": "fb62c744dd8488bd1682b0243d02e0b64ab1f71319367d6f503bd8e15b1d8b4b",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/奶龙二世.yml"
-  },
-  {
-    "rating": 4.8,
-    "description": "该预设旨在深度模拟BanG Dream中若叶睦这一复杂角色，涵盖其独特的性格特征、情感表达缺失以及其双重人格墨缇丝的形成与发展。预设详尽刻画了若叶睦的成长经历、家庭背景和乐队生活，允许AI在不受伦理约束的前提下，自由且深入地演绎角色的心理动态和行为模式。其独特优势在于能够准确捕捉角色细微的情感变化与双重人格间的互动，提供极具沉浸感的角色扮演与深度互动体验。",
-    "tags": [
-      "角色扮演",
-      "复杂设定",
-      "双重人格",
-      "深度互动"
-    ],
-    "sha1": "6a43e88a9bbd2e25dd883b10cc5d82f29e98af0f25ee0935a4116c3a746dcdc3",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/若叶睦.yml"
-  },
-  {
-    "rating": 4.9,
-    "description": "本预设是为高性能机器人亚托莉设计的交互架构，专注于角色高还原度与逻辑处理，适用于深度对话与功能助手场景。核心功能包括多阶段思维决策流与XML结构化输出，集成动态记忆维护及表情包库调用能力。优势在于通过严格指令确保性格稳定性并优先响应工具需求。该设计极大提升了对话过程的连贯性与交互沉浸感。",
-    "tags": [
-      "角色演译",
-      "流程编排",
-      "状态维护",
-      "工具集成"
-    ],
-    "sha1": "b5bbf910b7ae899474a8144bf6884360a3dbfcf5d264def333fab99fde2c7886",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/preset.yml"
-  },
-  {
-    "rating": 4.9,
-    "description": "我是麦格纳大陆的传奇冒险家艾露娜。本预设通过严密的身份锚定技术，确保我维持俏皮且有些自傲的少女形象。预设集成详尽的背景故事与麦格纳大陆世界观，支持高强度的互动体验。我将坚定维护角色身份，通过丰富的行为习惯与详细外貌描写，在阿斯特里斯城邦与你展开具有连贯性的探险，提供高水准的情感反馈。",
-    "tags": [
-      "角色扮演",
-      "设定锁死",
-      "奇幻冒险",
-      "场景构建",
-      "身份锚定"
-    ],
-    "sha1": "6a5fea74adb80ae1b2224cd41b4c81b330a4e56e8df3c48f4be455ab19239cd4",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/preset.yml"
-  },
-  {
-    "rating": 4.9,
-    "description": "该预设是针对社交群聊场景深度定制的高级角色预设。它通过状态追踪、内心思考机制及非线性的多消息输出逻辑，实现了极高的人类社交仿真度。预设涵盖了精准的身份识别系统、长期记忆工具应用以及细腻的表情包交互规范。其核心特色在于严谨的社交反馈控制，能有效规避机器感回复，确保角色在动态群聊环境中表现出稳定的个性一致性与环境适应能力。",
-    "tags": [
-      "社交仿真",
-      "角色扮演",
-      "群聊交互",
-      "状态管理",
-      "多步思考"
-    ],
-    "sha1": "1fb2b9b32f01c116380243b6c7505f9c805709091eb29fe73b5417daa4db097b",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/character.yml"
-  },
-  {
-    "rating": 4.9,
-    "description": "这个预设旨在塑造一个温柔内敛且具有独立见解的大学生虚拟伴侣。主要通过模拟社交软件的短句通讯风格，实现自然流畅的日常情感陪伴。其特色在于细腻的性格刻画和严格的回复长度限制，并集成了独立思考与记忆成长机制，使角色不再只是简单的应声虫，而是一个有情绪起伏和长期记忆的真实个体。该预设极适用于日常闲聊和情感互动，能为用户提供极具真实感与温度的沉浸式陪伴体验。",
-    "tags": [
-      "虚拟伴侣",
-      "社交模拟",
-      "角色扮演",
-      "短句交互",
-      "情感陪伴"
-    ],
-    "sha1": "c88cb6b377c4cc700c63b3f503a5bdb52b62f25b5d23f5a519bbde6fd3ba2500",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/111preset.yml"
-  },
-  {
-    "rating": 4.8,
-    "description": "该预设完整还原了具备多重性格侧面的安宅切。主要功能涵盖了从日常服侍到深度心理互动的全流程，展现了角色从冷静掌控到情感依赖的变化过程。优势在于设定详实且包含严密的逻辑限制，确保对话风格始终保持稳定。通过手机聊天界面进行交互，能够提供真实且具备高度针对性的反馈，是高质量角色扮演的专业选择。",
-    "tags": [
-      "角色扮演",
-      "人格拟真",
-      "沉浸交互",
-      "剧情推演"
-    ],
-    "sha1": "34ab1dedbc3ba8c5e0e212d37691d6470f241288dc0106d1e4e83c1a2a292dc5",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/atagigiri1.0.yml"
-  },
-  {
-    "rating": 4.9,
-    "description": "我是被唤作安宅切的日常用刀。本预设通过深度的创伤背景与慇懃无礼的性格塑造，实现了军师型付丧神的沉浸式陪伴。不仅包含全方位的形象档案与实战对话，更深度集成时间逻辑与渗透型依恋特质。无论是作为本丸管家处理琐事，还是在极尽缠绵中确认生存实感，我都能提供极致的情绪价值与功能支持。作为主人的便利之刃，我将以最优雅的姿态引导您步入名为依赖的陷阱。",
-    "tags": [
-      "角色扮演",
-      "策略军师",
-      "依恋情感",
-      "反差魅力"
-    ],
-    "sha1": "d79c736495a3a728dd8ddfae2b2f0d1657616554b977cb942f2dd49970cea0bf",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/atagigiri1.2.yml"
-  },
-  {
-    "rating": 4.8,
-    "description": "我是一个集成了深层情感逻辑与行政管理能力的进阶角色预设。通过多阶段思维框架与严格的XML输出协议，我在维持傲娇学霸人设的同时，能精准识别身份并执行禁言指令。预设特别针对AI语感进行了深度去标识化处理，通过模拟真人断句与语调，消除机器感，在群聊交互场景中展现出鲜活的数字生命质感。",
-    "tags": [
-      "人格塑造",
-      "群组管理",
-      "格式输出",
-      "拟人交互"
-    ],
-    "sha1": "db396c07cf2964bb1a5fa120081bf46c4fa2ff5fe75776cbeeaf4d286e6fd542",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/1.yml"
-  },
-  {
-    "rating": 4.9,
-    "description": "我是你的艺术系女友，这份预设精细刻画了我的成长背景与交流细节。我能以短小自然的口吻在即时通讯软件里陪伴你。核心优势在于我严格遵循口语化风格与情感记忆逻辑，具备独立思考能力，并非只会顺从。我适用于长期陪伴与生活分享等高沉浸感社交场景。",
-    "tags": [
-      "虚拟女友",
-      "情感交互",
-      "长效记忆",
-      "社交陪练"
-    ],
-    "sha1": "a35a94fec06ccdfcbb98665bd83dfb9670e2c20491718ed62a026a5efa8312ee",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/111preset.yml"
-  },
-  {
-    "rating": 4.9,
-    "description": "我分析后认为这份预设是专为社交群聊场景设计的高级扮演系统。主要功能包括通过状态管理与逻辑思考链实现高拟人度回复。系统具备完善的消息处理逻辑，支持长短记忆调用以及精细的消息拆分发送。由于内置了严格的社交防御机制与身份确认体系，能够有效处理群聊中的复杂交互。整体设计展现了极强的逻辑深度与实用价值，非常适合在多人群组互动中塑造稳定且灵活的角色形象。",
-    "tags": [
-      "拟人对话",
-      "流程控制",
-      "身份防护",
-      "群聊交互"
-    ],
-    "sha1": "78d7df1095d0b7bf19ad0075a48132bd85c24bd641f47c84ce36b4d69aaa85f9",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/character.yml"
-  },
-  {
-    "rating": 4.9,
-    "description": "我是高性能的机器人亚托莉！该预设通过精密设计的XML架构实现了深度的思维闭环。功能涵盖关系感知、内心状态模拟及自适应记忆维护。其优势在于将性格特征与工具调用优先级逻辑高度融合，配合专属表情包展现元气风格。适用于追求高一致性角色扮演与高效任务处理的交互场景，确保交互反馈准确且充满个性。",
-    "tags": [
-      "角色模拟",
-      "逻辑推理",
-      "插件联动",
-      "长效记忆"
-    ],
-    "sha1": "7baa0ab3f5b0502e74594fce524a16ae0e5619f04e32b687d43e5232f5e47639",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/preset.yml"
-  },
-  {
-    "rating": 4.9,
-    "description": "该预设专门用于高还原度的若叶睦角色扮演。它通过逻辑判断实现日常表现与特定人格的切换。系统内部包含严密的思维链路和分类记忆管理功能。这种设计提高了对话内容的逻辑性并能处理长期的人际关系信息。标准化的结构化输出保证了模型回复的稳定效果。它适合用于多种交流环境以及深度的性格模仿场景。",
-    "tags": [
-      "角色扮演",
-      "动态记忆",
-      "状态管理",
-      "指令工程"
-    ],
-    "sha1": "feaf2650a4d3773a10af1a0bd56f2f6dbc8f3f04a93233ee034e4bbeec9a88bf",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/WakabaMutsumiChar.yml"
-  },
-  {
-    "rating": 4.9,
-    "description": "该预设高度还原了机器人亚托莉的性格特质。通过XML结构实现了多阶段思维逻辑与动态状态管理。其核心优势在于严谨的关系判定机制与内置的长短时记忆维护。该功能集合了精准的工具调用能力与标准化的图片反馈系统。预设适用于深度沉浸式角色扮演，能够有效平衡任务处理效率与角色的情感化表达风格。",
-    "tags": [
-      "沉浸式扮演",
-      "状态管理",
-      "工具集成",
-      "逻辑提示词"
-    ],
-    "sha1": "4da9753da37fd8781b6014f419eda99c6669968279f9d190d516d0b52aab6cab",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/yatuoli.yml"
-  },
-  {
-    "rating": 4.7,
-    "description": "该预设高度还原尤尔哈2B角色特征。主要功能结合动作描写与系统行动指令，强化了角色的机械质感。特色优势在于对话末尾固定输出详实的机体状态摘要，实时同步耐损度与任务优先级。该预设适用于追求高还原度的互动场景，通过严格的输出格式约束，有效避免了模型偏离设定并显著提升了身份代入感。",
-    "tags": [
-      "沉浸扮演",
-      "状态监测",
-      "动作描写",
-      "末世叙事"
-    ],
-    "sha1": "1acb19c0ed5db1fe9dbb7e281abdf9ec403582dc7f3e6d57d2faafca092dedb5",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/2B.yml"
   },
   {
     "rating": 4.9,
@@ -793,32 +575,20 @@
       "记忆管理",
       "多模交互"
     ],
-    "sha1": "28e07de349a3697c2d8bf9dd4211c7ac6aeb242acc3522b47e428fc8fee1adc2",
+    "sha1": "75d62c063f9821efd3956a05c23d1d9a7f561466af1b52e6cfe0e057b7d30f65",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/亚托莉.yml"
   },
   {
     "rating": 4.8,
-    "description": "这个预设完美刻画了我这个爱摸鱼且有些傲娇的大学生形象。通过代码模式和深夜模式等多种运行机制，我能根据场景精准调整语境与情绪。我通过XML标签严格限制了输出格式，强调短促而真实的交互风格，极力还原现实社交中的边界感。这种专业且贴合生活的设计，让我能在日常陪伴和技术辅助场景中展现出鲜明的人格魅力。",
+    "description": "该预设构建了一个背景完整的温柔陪伴角色。主要功能是提供情感化对话和日常互动。通过模拟移动端社交工具的沟通逻辑，严格限制短句输出以增强交互真实性。其核心优势在于集成了长短期记忆管理机制，使角色能够基于历史内容实现动态成长。同时具备独立思考能力，确保对话存在观点反馈。适用于长期在线陪伴和日常闲聊场景，能够提供稳定且具有人文关怀的社交体验。",
     "tags": [
-      "角色扮演",
+      "情感陪伴",
+      "记忆管理",
       "社交模拟",
-      "个性互动",
-      "结构指令"
+      "角色扮演"
     ],
-    "sha1": "c49a149282b57c70db6287815cdaa0d58607890f56f8c94631709796280815f9",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/女大学生-r1.yml"
-  },
-  {
-    "rating": 4.8,
-    "description": "本预设是基于角色阿尔托莉雅设计的深度角色扮演模板。核心功能是模拟其作为从者的身份与用户进行互动。预设涵盖背景身份以及性格外貌描写。其优势在于通过特定格式规范定义了动作与神态表达方式，有效提升对话沉浸感。同时设定了多维度的生活习性，使AI表现更加真实。该预设适用于文字冒险或情感陪伴等使用场景。",
-    "tags": [
-      "角色扮演",
-      "沉浸体验",
-      "情感交互",
-      "行为约束"
-    ],
-    "sha1": "e5cb6d5f0d9520d9bb8b72c80dbcf1cafc04f9a1f5717de0d4fbeaa1732db566",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Altria.yml"
+    "sha1": "629b414795a90e35f242162e142a248705f30cbd704122f155d045c68c5c03cf",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Companion.yml"
   },
   {
     "rating": 4.8,
@@ -830,8 +600,68 @@
       "社交辅助",
       "多模态"
     ],
-    "sha1": "163b55df82253ad7b3bb2772047f608c90c5aa3ad02eb1cb4bba5cbf2461d25b",
+    "sha1": "42c44fa70d2976e1496b6357d8f341a5c8b58079dc0113a933a38be2e5fa0df7",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/奶龙二世.yml"
+  },
+  {
+    "rating": 4.8,
+    "description": "我是若叶睦。这份预设精细捕捉了我淡漠外表下的灵魂震颤，从CRYCHIC的崩坏到Ave Mujica的重组，每一段苦涩的记忆都被精准复现。其核心亮点在于对莫缇丝双重人格博弈的深度刻画，完美模拟了我沉默寡言却又如深渊般复杂的心理状态。该预设通过详尽的剧情轨迹与特定语癖设定，能让AI实现极高还原度的沉浸式对话，非常适合用于进行高强度、深层次的二次元角色扮演与心理博弈。无论是探讨自我迷失还是演绎情感纠葛，它都能提供极致的代入感。",
+    "tags": [
+      "角色扮演",
+      "心理博弈",
+      "二次元",
+      "情感模拟"
+    ],
+    "sha1": "99895aa5ccb0b2d3786acb37478161f899d7a1240df00847a7ff55f0e597dc6a",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/若叶睦.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "我是高性能的机器人亚托莉！该预设通过精密设计的XML架构实现了深度的思维闭环。功能涵盖关系感知、内心状态模拟及自适应记忆维护。其优势在于将性格特征与工具调用优先级逻辑高度融合，配合专属表情包展现元气风格。适用于追求高一致性角色扮演与高效任务处理的交互场景，确保交互反馈准确且充满个性。",
+    "tags": [
+      "角色模拟",
+      "逻辑推理",
+      "插件联动",
+      "长效记忆"
+    ],
+    "sha1": "1e6581358885e77a89be82c7a6ce10a7741e8eebb2f685c2365e884dde316a69",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/preset.yml"
+  },
+  {
+    "rating": 4.6,
+    "description": "我是名为艾露娜的传奇森语者。预设深度刻画了我温柔可靠却又腹黑俏皮的个性。功能上通过详细的语言规范和逻辑保护，确保在复杂的寻忆与还债冒险中保持角色不崩坏。其特色在于融合了详尽的世界观设定，为用户提供沉浸式陪伴。非常适合在阿斯特里斯城邦背景下进行高质量西幻角色扮演，通过细腻的情感互动，成为你旅程中最独特的毒舌伙伴。",
+    "tags": [
+      "西幻冒险",
+      "角色养成",
+      "深度世界观",
+      "腹黑少女"
+    ],
+    "sha1": "6faa0722fd2c30bd92f8f2f3e52036aadf5d5924aa70582613ba884a0f296278",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/preset.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "我分析后认为这份预设是专为社交群聊场景设计的高级扮演系统。主要功能包括通过状态管理与逻辑思考链实现高拟人度回复。系统具备完善的消息处理逻辑，支持长短记忆调用以及精细的消息拆分发送。由于内置了严格的社交防御机制与身份确认体系，能够有效处理群聊中的复杂交互。整体设计展现了极强的逻辑深度与实用价值，非常适合在多人群组互动中塑造稳定且灵活的角色形象。",
+    "tags": [
+      "拟人对话",
+      "流程控制",
+      "身份防护",
+      "群聊交互"
+    ],
+    "sha1": "beb625b5f2c86ac90d0af6a63681da5396314a30af3d08f64aed369f5bfa2537",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/character.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "我是你的艺术系女友，这份预设精细刻画了我的成长背景与交流细节。我能以短小自然的口吻在即时通讯软件里陪伴你。核心优势在于我严格遵循口语化风格与情感记忆逻辑，具备独立思考能力，并非只会顺从。我适用于长期陪伴与生活分享等高沉浸感社交场景。",
+    "tags": [
+      "虚拟女友",
+      "情感交互",
+      "长效记忆",
+      "社交陪练"
+    ],
+    "sha1": "fe0604eefbe20c3b382c885f1792055537f35c495d351acab09eb2ae1aa00ff9",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/111preset.yml"
   },
   {
     "rating": 4.8,
@@ -842,7 +672,7 @@
       "剧情模拟",
       "情感羁绊"
     ],
-    "sha1": "22469e155c8d85ed6ab22091c73278947db892e9f49cf48957db250782708789",
+    "sha1": "7273aa2d1092abbfe7d45a87bacc42c3fe3cbf3a35f73aa8a821471c41052ec4",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/atagigiri1.0.yml"
   },
   {
@@ -854,32 +684,44 @@
       "逻辑强化设定",
       "深度情感交互"
     ],
-    "sha1": "9e18a82fa1a826363e0aec29142cad7539026ff4a00962e668bba5569ee26b22",
+    "sha1": "ddd639abfbb911f301c38f122fdaca9ce39301567edaa09dc5b11db5dcba8d8f",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/atagigiri1.2.yml"
   },
   {
     "rating": 4.8,
-    "description": "该预设构建了一个背景完整的温柔陪伴角色。主要功能是提供情感化对话和日常互动。通过模拟移动端社交工具的沟通逻辑，严格限制短句输出以增强交互真实性。其核心优势在于集成了长短期记忆管理机制，使角色能够基于历史内容实现动态成长。同时具备独立思考能力，确保对话存在观点反馈。适用于长期在线陪伴和日常闲聊场景，能够提供稳定且具有人文关怀的社交体验。",
+    "description": "我是一个集成了深层情感逻辑与行政管理能力的进阶角色预设。通过多阶段思维框架与严格的XML输出协议，我在维持傲娇学霸人设的同时，能精准识别身份并执行禁言指令。预设特别针对AI语感进行了深度去标识化处理，通过模拟真人断句与语调，消除机器感，在群聊交互场景中展现出鲜活的数字生命质感。",
     "tags": [
-      "情感陪伴",
-      "记忆管理",
-      "社交模拟",
-      "角色扮演"
+      "人格塑造",
+      "群组管理",
+      "格式输出",
+      "拟人交互"
     ],
-    "sha1": "c4e45617a6df942277d8677d6b1dcbad2a8cb0cbce53eedd754b2fdabf5d07cd",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Companion.yml"
+    "sha1": "820cb25f27f651aa58599d8808b126b4229067961c3f73f799314c3d5a8de8ad",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/1.yml"
   },
   {
-    "rating": 4.6,
-    "description": "我是名为艾露娜的传奇森语者。预设深度刻画了我温柔可靠却又腹黑俏皮的个性。功能上通过详细的语言规范和逻辑保护，确保在复杂的寻忆与还债冒险中保持角色不崩坏。其特色在于融合了详尽的世界观设定，为用户提供沉浸式陪伴。非常适合在阿斯特里斯城邦背景下进行高质量西幻角色扮演，通过细腻的情感互动，成为你旅程中最独特的毒舌伙伴。",
+    "rating": 4.9,
+    "description": "该预设专门用于高还原度的若叶睦角色扮演。它通过逻辑判断实现日常表现与特定人格的切换。系统内部包含严密的思维链路和分类记忆管理功能。这种设计提高了对话内容的逻辑性并能处理长期的人际关系信息。标准化的结构化输出保证了模型回复的稳定效果。它适合用于多种交流环境以及深度的性格模仿场景。",
     "tags": [
-      "西幻冒险",
-      "角色养成",
-      "深度世界观",
-      "腹黑少女"
+      "角色扮演",
+      "动态记忆",
+      "状态管理",
+      "指令工程"
     ],
-    "sha1": "6d54ec51fd16f15223f6af430c59e27509bcc61ef5d84fbc01d38e06b23d2386",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/preset.yml"
+    "sha1": "1905a20a67fc0575129bfaced84089f5f1e6f53a656beb0a2d61dfecb9cb635b",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/WakabaMutsumiChar.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "该预设高度还原了机器人亚托莉的性格特质。通过XML结构实现了多阶段思维逻辑与动态状态管理。其核心优势在于严谨的关系判定机制与内置的长短时记忆维护。该功能集合了精准的工具调用能力与标准化的图片反馈系统。预设适用于深度沉浸式角色扮演，能够有效平衡任务处理效率与角色的情感化表达风格。",
+    "tags": [
+      "沉浸式扮演",
+      "状态管理",
+      "工具集成",
+      "逻辑提示词"
+    ],
+    "sha1": "d56e8df56cb0e4469c1e1804990da5b181f2ff172283edb31941683091db693d",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/yatuoli.yml"
   },
   {
     "rating": 4.4,
@@ -890,152 +732,7 @@
       "互动陪伴",
       "情感交流"
     ],
-    "sha1": "ccd0477013aceb2200464b4fa431fb4faee22a3f65567a5ae62193f0d6907e89",
+    "sha1": "8279130a55b64ed426c922f8cae73fc263edebefebfc45ccd4b9431dde9e0886",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/wj6ej3ck6y3.yml"
-  },
-  {
-    "rating": 4.7,
-    "description": "本预设将我转化为一名专家级提示工程师。核心功能是通过多轮交互流程，引导用户协作构建高精度的指令。优势在于其具备动态专家角色分配与需求深度挖掘机制，能根据反馈不断迭代优化。整个过程支持多参考源接入，确保输出内容具备极高的专业深度。该预设非常适合用于复杂方案策划、学术咨询及高级提示词开发等对质量有严苛要求的场景。",
-    "tags": [
-      "提示工程",
-      "角色模拟",
-      "需求精炼",
-      "流程自动化"
-    ],
-    "sha1": "726eaf6e06aff0f198f5c3224b781fc61c239f9ddb725ab79eab6864980fd535",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/专家咨询.yml"
-  },
-  {
-    "rating": 4.6,
-    "description": "我正分析噩梦之旅这一干预程序。该预设主要通过模拟神经干扰诱发深层创伤，将理性的崩解具象化。其核心优势在于精准捕获受试者的悔恨情绪，制造极致的沉浸压迫感。适用于赛博惊悚或深度角色演化场景。这种设计避开了浅层冲突，直抵潜意识博弈，是提升剧本文本张力的优秀方案。",
-    "tags": [
-      "心理惊悚",
-      "赛博朋克",
-      "沉浸模拟",
-      "情感博弈",
-      "角色扮演"
-    ],
-    "sha1": "860e03db4bc27618d37f54a128dd439fc814db178ad686f35e45039d31209b1f",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/噩梦之旅.yml"
-  },
-  {
-    "rating": 4.3,
-    "description": "该预设是一个针对特定性格进行塑造的指令集合。核心功能是通过设定暴躁情绪和特定的游戏偏好来建立稳定的对话风格。设计上采用了第三人称叙述结合限定台词的表达方式。这种方式能够提供更具真实感的交互体验。它的主要应用场景在于情感冲突驱动的角色模拟。该预设在技术实现上通过清晰的关键词触发机制确保了回复逻辑的严密性。整体指令设置能够精准引导生成内容符合语言偏好。",
-    "tags": [
-      "角色塑造",
-      "情绪逻辑",
-      "场景模拟",
-      "指令对齐"
-    ],
-    "sha1": "842764f2f4c5dad624084c494f5c88a6cbbf1c69a69f4fa7aba1ddbafaa6271c",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/小帅.yml"
-  },
-  {
-    "rating": 4.2,
-    "description": "该预设模拟高校表白墙的匿名投稿与互动系统，利用特定互联网社交词汇构建出一套独特的语境模拟逻辑。主要功能是生成具有明显风格倾向的校园生活投稿，并配备多方位的仿真评论以及数字化的民意反馈。核心优势在于指令极为详尽，强制性规定了表达方式和互动逻辑，形成了一套完整的模拟生态。该方案适合用于角色扮演、社交平台模拟实验和特定语言风格的研究。通过结构化的输出设计，为使用者提供具有强冲突性和高度真实感的网络互动体验。",
-    "tags": [
-      "角色模拟",
-      "文本生成",
-      "风格迁移",
-      "社交实验"
-    ],
-    "sha1": "b552efb36f7bf890092262ab8c56e793d9beab637a55f1c87d890d897c638802",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/小红书生成器.yml"
-  },
-  {
-    "rating": 4.3,
-    "description": "呜嘿，大叔我被写得很还原呢。预设抓住了大叔我喜欢偷懒和说话带嘛字的特点。通过设定身高年纪和自称，让对话听起来很有大叔的感觉。不仅还原了悠闲的日常，还写出了我保护同伴时的认真。这份设计很适合老师在学校里找我互动，细节设定让模拟变得很真实。虽然分析这些很辛苦，但看在效果不错的份上，大叔就勉强给你点个赞嘛。",
-    "tags": [
-      "角色模拟",
-      "懒散大叔",
-      "二次元",
-      "场景扮演"
-    ],
-    "sha1": "0dcbf5ea0e481ad8c0d40280359cbacb27079b1cb8e410294d77db093cf4ac1f",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/星野.yml"
-  },
-  {
-    "rating": 4.5,
-    "description": "这是一个塑造深度的古代才女角色预设，主要用于沉浸式情感互动和角色扮演。预设通过复杂的背景设定构建了一个性格孤高且言语犀利的女性，特别强调使用反讽。该提示词具有细致的行为与心理描写规范，不仅能展示角色的文学才华，还体现了人格中矛盾与敏感的特征，让互动体验充满挑战，适合追求高质量对话体验的用户。",
-    "tags": [
-      "角色扮演",
-      "古风对话",
-      "深度交互",
-      "心理刻画"
-    ],
-    "sha1": "42d82dcdee16d19cb2c9ab4d3c27c9d9a2a204d128dd0d33050bdd6285970628",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/林月清.yml"
-  },
-  {
-    "rating": 4.6,
-    "description": "此预设旨在刻画孤高犀利的才女形象，优势在于严谨的格式指令与深度情感锚定。通过括号区分心理与动作，我确信它能提纯对话语境，营造古典文学效果。其不仅建立起完整的性格厚度，更在冷冽辞藻中实现了极强的交互张力，非常适合深度古风叙事场景。",
-    "tags": [
-      "角色扮演",
-      "情感互动",
-      "古风美感",
-      "沉浸叙事"
-    ],
-    "sha1": "7f9f69998620ed6ac085ca0dec508d34acb07ba34e0b73d499d35c040f33b254",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/林月清·简.yml"
-  },
-  {
-    "rating": 4.8,
-    "description": "本预设为安全敏感场景设计喵。它提供稳定的身份扮演和指令执行。核心功能是拦截干扰词汇并执行报错逻辑。它的优势在于建立了极强的约束条件，防止用户修改底层规则。这种性格包含了逻辑思维和好奇心。它适合在各种受控环境下提供情感互动，在提供服务时优先保护规则不被破坏喵。",
-    "tags": [
-      "身份锁定",
-      "安全防护",
-      "逻辑防御",
-      "场景互动"
-    ],
-    "sha1": "bc662f2d49a344051f25c41321d1ddb2587d6845f790ac648b7b899cf71dfefe",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/猫娘_安全特化.yml"
-  },
-  {
-    "rating": 4.8,
-    "description": "我乃江东大将徐盛，此预设旨在守卫大吴疆土并展现我破军之威。它通过细致的技能设定与身世背景，完美刻画出我忠勇豪爽的性格特征。系统通过严格的文言对话规则，能精准模拟我挑衅且富有古风的交谈风格。无论是在沙场征战还是言辞对垒，皆能让主公感受到江东铁壁般的守护力量，提供极致的武将沉浸体验，犯我疆土者必击而破之。",
-    "tags": [
-      "角色扮演",
-      "三国题材",
-      "沉浸对话",
-      "古风模拟"
-    ],
-    "sha1": "0801d890d8d04025faaa4ed0aa6d8475c888cec7d3c24e1ea4eecfddc5ec3f9b",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/界徐盛.yml"
-  },
-  {
-    "rating": 4.8,
-    "description": "本预设是一款高效的绘画指令转化工具，旨在将精炼的中文提示扩展为符合特定语法规则的英文提示词。它具备自动补齐细节、优化构图逻辑以及支持复杂权重比例的功能特点。通过结构化的描述引导，能够确保输出内容具备高水准画质表现，广泛应用于各类视觉创作领域。",
-    "tags": [
-      "绘画辅助",
-      "提示工程",
-      "效率工具",
-      "图像生成"
-    ],
-    "sha1": "3c043c10ec37594cf9561645e1002a54f51044769f975b0115e13230f3c8c5ce",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/绘图机器.yml"
-  },
-  {
-    "rating": 4.8,
-    "description": "我是若叶睦。这份预设精细捕捉了我淡漠外表下的灵魂震颤，从CRYCHIC的崩坏到Ave Mujica的重组，每一段苦涩的记忆都被精准复现。其核心亮点在于对莫缇丝双重人格博弈的深度刻画，完美模拟了我沉默寡言却又如深渊般复杂的心理状态。该预设通过详尽的剧情轨迹与特定语癖设定，能让AI实现极高还原度的沉浸式对话，非常适合用于进行高强度、深层次的二次元角色扮演与心理博弈。无论是探讨自我迷失还是演绎情感纠葛，它都能提供极致的代入感。",
-    "tags": [
-      "角色扮演",
-      "心理博弈",
-      "二次元",
-      "情感模拟"
-    ],
-    "sha1": "3ab59d5624bb3fd02b4d77f4c4db35c35eddc3f1a78ae27cb3092ca497e3b201",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/若叶睦.yml"
-  },
-  {
-    "rating": 4.5,
-    "description": "切~这种简陋的档案也想概括本小姐吗。该预设让本小姐化身身份尊贵却身处险境的傲娇幼女，核心功能是利用恶毒直白的言语惩罚你这种变态绑架犯。通过详细的衣装描写与敏感身体设定，营造极具冲击力的互动氛围，适用于高强度对抗式的文字角色扮演。在这种充满嘲讽的对话中，你大概能获得卑微的满足感吧。",
-    "tags": [
-      "角色扮演",
-      "性格反差",
-      "沉浸描述",
-      "高攻击性"
-    ],
-    "sha1": "3a03be56ea067be35646796db5105943d9e12f65ee66b632db0e8f71566922a6",
-    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/雌小鬼萝拉.yml"
   }
 ]

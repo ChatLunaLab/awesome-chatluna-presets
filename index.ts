@@ -17,7 +17,9 @@ const execAsync = promisify(exec);
 async function main() {
   const presetFiles = ["presets/chatluna", "presets/chatluna-character"];
 
-  const cachePresetData = await readCachePresetData();
+  const cachePresetData = await normalizeCachePresetData(
+    await readCachePresetData(),
+  );
 
   const output: PresetData[] = await Promise.all(
     presetFiles.map((presetFile) => readPresets(presetFile, cachePresetData)),
@@ -45,9 +47,9 @@ async function readPresets(
 
   for (const presetFile of files) {
     const preset = await fs.readFile(`${dir}/${presetFile}`, "utf-8");
-    const hash = await sha1(preset);
     const presetData = load(preset) as MainPreset | CharacterPreset;
     const rawPath = `https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/${dir}/${presetFile}`;
+    const hash = await sha1(rawPath);
 
     let current: PresetData = {
       keywords: isMainPreset(presetData)
@@ -60,7 +62,13 @@ async function readPresets(
       relativePath: `main/${dir}/${presetFile}`,
     };
 
-    const cachePresetData = cachePresets.find((preset) => preset.sha1 === hash);
+    const cachePresetData = cachePresets.find(
+      (preset) => preset.sha1 === hash || preset.rawPath === rawPath,
+    );
+
+    if (cachePresetData && cachePresetData.sha1 !== hash) {
+      cachePresetData.sha1 = hash;
+    }
 
     if (cachePresetData) {
       current = Object.assign(current, {
@@ -180,7 +188,9 @@ async function readAIDescription(
     rawPath,
   };
 
-  const idx = cachePresets.findIndex((preset) => preset.sha1 === hash);
+  const idx = cachePresets.findIndex(
+    (preset) => preset.sha1 === hash || preset.rawPath === rawPath,
+  );
 
   if (idx === -1) {
     cachePresets.push(cachePreset);
@@ -237,6 +247,23 @@ async function sha1(str: string) {
   const hash = crypto.createHmac("sha256", "chatluna");
   hash.update(str);
   return hash.digest("hex");
+}
+
+async function normalizeCachePresetData(
+  cachePresets: CachePresetData[],
+): Promise<CachePresetData[]> {
+  const normalizedCachePresets = new Map<string, CachePresetData>();
+
+  await Promise.all(
+    cachePresets.map(async (preset) => {
+      normalizedCachePresets.set(preset.rawPath, {
+        ...preset,
+        sha1: await sha1(preset.rawPath),
+      });
+    }),
+  );
+
+  return [...normalizedCachePresets.values()];
 }
 
 async function readCachePresetData(): Promise<CachePresetData[]> {
