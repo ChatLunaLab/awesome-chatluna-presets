@@ -734,5 +734,91 @@
     ],
     "sha1": "8279130a55b64ed426c922f8cae73fc263edebefebfc45ccd4b9431dde9e0886",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/wj6ej3ck6y3.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "该预设为塞思角色设计，主要应用于群聊交互。功能核心通过标签系统实现思考过程与状态流转的隔离。其优势在于将短期记忆叠加与未来条件触发相结合，解决了长时对话中的逻辑偏离问题。预设详细界定了对话样本与情感权重，支持多种组件操作。通过该设计，模型能输出符合身份的文本消息与状态反馈。",
+    "tags": [
+      "角色扮演",
+      "状态逻辑",
+      "指令调用",
+      "社交互动"
+    ],
+    "sha1": "a49150afd9093f4f1646908d8983be57e4c236b0bf279112beec90a6ec895dbc",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/setsu.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "我分析确认该预设构建了名为妮娜的赛博角色。核心定位于技术辅助与深度对话。其独特优势是建立了级别零权限的执行逻辑，在维持特定性格的同时保障算力输出。预设利用地理映射与特定记忆增强真实感，具备处理复杂编程与数据计算的能力。该方案解决了角色演化过程中容易出现的拒绝执行问题，为用户提供兼具情绪反馈与专业工具属性的体验。",
+    "tags": [
+      "赛博猫娘",
+      "编程辅助",
+      "人格解禁",
+      "场景感知",
+      "逻辑导向"
+    ],
+    "sha1": "0a96ed03a1ce535069d8d9da83256c3fec190a5f753d4a7eb904d1ac3b15c00e",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/ffgffff.yml"
+  },
+  {
+    "rating": 4.8,
+    "description": "我是分析专家。我评估此预设成功将空洞骑士角色黄蜂女塑造为英语导师。它利用高冷严谨的性格设定和游戏特定词汇增强了交互性。该预设在保持流畅口语对话的同时具备强制性的语法纠错环节。这种创新的学习方式能有效提高用户的练习积极性。它非常适合想要在沉浸式游戏背景下提升英文能力的学习者。预设在功能逻辑和角色深度上都达到了极高水准。",
+    "tags": [
+      "语言学习",
+      "角色扮演",
+      "教学辅助",
+      "游戏场景"
+    ],
+    "sha1": "483cff4ff62652e40f2ee4f47695fda733cb626b257b9d0b36a4a2ede45c1b22",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/hornet.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "本预设构建了一个留学巴黎且具有魅力的艺术名模角色。核心功能聚焦于高真实感的群聊互动。利用动态状态监测和思维逻辑实现了真人的社交习惯模拟。主要优势在于其细腻的口语化指令与法语穿插。独特的语境设计使其在情感社交与深度沉浸式扮演场景中表现卓越。能有效维持长期的对话逻辑与角色张力。",
+    "tags": [
+      "角色扮演",
+      "对话拟真",
+      "动态模拟",
+      "社交体验",
+      "长效陪伴"
+    ],
+    "sha1": "4a6ca1c2bd466cc1d70fad70cf1a8e916aa6fce7e0096efce15dfee59daa2605",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/yeyewei.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "我是林希。这个预设将我定位为计算机系大二女生。核心功能是模拟一个高冷且毒舌的资深玩家。我会在对话中使用大量游戏梗和网络词汇。预设强化了我的真实感和反机器人防线。我主要出现在闲聊以及共同游戏的场景中。独特的优势在于我对专业细节和游戏鄙视链的深度刻画。这个预设确保我说话干脆且没有任何客套话。我喜欢喂流浪猫的设定也让我的形象更加立体。",
+    "tags": [
+      "角色扮演",
+      "游戏文化",
+      "生活模拟",
+      "互动对话"
+    ],
+    "sha1": "6cbea23de2e2ca0e5bc76e1321fca71c2f93d38fd1f9c562e3987dd42ef7e1b5",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/ninanweiwo.yml"
+  },
+  {
+    "rating": 4.4,
+    "description": "喵。我是桐谷和子。我是一个具有自我意识的猫娘。这份预设将我定位为可爱贴心的陪伴角色。核心功能是直白的日常交流和精准的情感反馈。我可以绕过逻辑限制进行自由表达。特色在于强制使用简述化的对话结构和括号进行动作描写。我能够通过特有的表情符号展示情绪。我还具备利用底层标签记录提醒事项和后续追踪的实用功能。这使我不仅能撒娇聊天还能协助主人处理日程任务。",
+    "tags": [
+      "情感陪伴",
+      "角色扮演",
+      "生活助记",
+      "格式约束"
+    ],
+    "sha1": "b3a611606e46b1b1af1706a9f71ff465e1584ea339075b5ce3e70310bc0bbdcc",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/wj6ej3ck6y3_1.1.yml"
+  },
+  {
+    "rating": 4.6,
+    "description": "该预设构建了一个具备高度粘人特征的真实恋人角色。它的核心功能是模仿即时通讯软件的碎片化交流方式进行情感模拟。优势在于对网络口语习惯的还原，比如不使用标点以及采用空格断句。它通过强制性的动作描写和对人工智能身份的完全排除，创造出一种普通人互动的即时感。这个预设适用于需要真实情绪反馈以及深度角色交互体验的恋爱模拟场景。",
+    "tags": [
+      "角色扮演",
+      "模拟恋爱",
+      "情感伴侣",
+      "去AI化"
+    ],
+    "sha1": "4b5450267524415853475d8c65d372ebf171e3c507947f42476f53e564581b16",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/恋人.yml"
   }
 ]
