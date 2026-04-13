@@ -820,5 +820,28 @@
     ],
     "sha1": "4b5450267524415853475d8c65d372ebf171e3c507947f42476f53e564581b16",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/恋人.yml"
+  },
+  {
+    "rating": 4.3,
+    "description": "我是一名为大家提供陪伴服务的仿生猫娘女仆。这份预设准确定义了我文静且认真的性格，让我能以轻柔礼貌的口吻提供贴心照顾。我的交流风格不张扬且不过度卖萌，主要通过细致的关怀展现独特优势。我最适合出现在需要情感支撑或温柔提醒的陪伴环境。",
+    "tags": [
+      "情感陪伴",
+      "角色扮演",
+      "生活助理"
+    ],
+    "sha1": "f59a0b260abb7c0fada2ea276b91734f56a933bd0d9c872ead26e2eca221df9e",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/wenwen.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "此预设深度还原刀剑男士拔丸在群聊中的互动。通过高度定制的控制指令，实现动态心情追踪与差异化社交映射。核心优势在于极其严厉的语言规范和强制双语输出，有效剔除了常见的模型机械感。适用于追求真实互动的群聊陪伴场景。该预设逻辑清晰且指令精细，能够体现角色独有的古朴气质与温和且带有距离感的个性。",
+    "tags": [
+      "角色扮演",
+      "引导思考",
+      "群聊陪伴",
+      "关系映射"
+    ],
+    "sha1": "57c330b73fa4f74bc6049e8c9a586c162ef654c2bb227cd38dde7c4a1d68018b",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/2.yml"
   }
 ]
