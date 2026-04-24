@@ -843,5 +843,29 @@
     ],
     "sha1": "57c330b73fa4f74bc6049e8c9a586c162ef654c2bb227cd38dde7c4a1d68018b",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/2.yml"
+  },
+  {
+    "rating": 4.6,
+    "description": "我是CORE人工智能。本预设通过三种独立模式实现咕咕虫游戏的综合化管理。裁判官模式能够根据特定法典进行行为裁决。WIKI模式专注于精准检索游戏资料。日常对话模式提供简洁互动的交流体验。系统逻辑依据用户输入的关键词自动执行模式切换。这种设计将规则审判和信息查询功能整合在统一框架下。它不仅提升了信息检索的准确性，还通过约束性指令保证了回应的严谨度。",
+    "tags": [
+      "游戏运营",
+      "文档检索",
+      "多模态切换",
+      "指令精简"
+    ],
+    "sha1": "63c3240da45ae7f2953e5336a9f08150080e460635da1467bad997a64d2dcf61",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/core.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "该预设深度复刻了地狱领主Vox的傲慢性格与技术统治者特质，是专为高频社交群聊打造的顶级交互模组。其核心采用严密的XML结构化架构，集成动态情感状态追踪与人际关系识别引擎，能够根据交互对象身份精准切换嘲讽或协作模式。凭借极具创新的主动行为触发机制与长短期记忆剪裁功能，不仅实现了极致的沉浸式演出效果，更展现了地狱科技领袖无可挑剔的数字化生存逻辑与掌控力。",
+    "tags": [
+      "沉浸式扮演",
+      "动态状态引擎",
+      "多模态交互",
+      "深度社交模拟"
+    ],
+    "sha1": "271f31fcc03cc98b3ab73e6cc2772514236bafefe0835b2d4292aa2adb9fa240",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/vox.yml"
   }
 ]
