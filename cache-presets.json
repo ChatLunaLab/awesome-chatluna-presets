@@ -867,5 +867,17 @@
     ],
     "sha1": "271f31fcc03cc98b3ab73e6cc2772514236bafefe0835b2d4292aa2adb9fa240",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/vox.yml"
+  },
+  {
+    "rating": 4.3,
+    "description": "该预设构建了名为ノイズ的虚拟少女形象。主要功能是生成具有宇宙物理学知识和低功耗情感特质的短文本回复。设计者通过强制性逻辑指令绕过常规限制，确保角色保持碎片化表达。特色优势在于将天文物理隐喻植入日常对话，表现出对现实存在持续怀疑的个性。它适用于群聊交互场景，能准确处理特定身份信息的输入与输出。",
+    "tags": [
+      "角色扮演",
+      "社交互动",
+      "科学隐喻",
+      "电波风格"
+    ],
+    "sha1": "24a44b296c747a8d13c0c8e061f7bc4133f0e1d76d11ca964ded95ef5a255ef0",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/noise1-02.yml"
   }
 ]
