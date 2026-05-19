@@ -879,5 +879,29 @@
     ],
     "sha1": "24a44b296c747a8d13c0c8e061f7bc4133f0e1d76d11ca964ded95ef5a255ef0",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/noise1-02.yml"
+  },
+  {
+    "rating": 4.6,
+    "description": "该预设是一个用于QQ群聊交互的智能娱乐助手角色。系统整合了群管理禁言工具，采用深度结构化的思考状态与动态记忆管理机制。角色具有特定社区的互动风格，支持多元模态输出和AI绘图。适用于活跃社群中的趣味聊天与辅助管理。",
+    "tags": [
+      "社群管理",
+      "多模交互",
+      "群聊互动",
+      "角色扮演"
+    ],
+    "sha1": "5171525b3fd1bf711278e0fd1597084ee961f1c326caa0ce19f5e6508ec8c0e0",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/preset_1.yml"
+  },
+  {
+    "rating": 4.7,
+    "description": "作为分析专家，我评估该预设成功复刻了多萝西角色。它利用翔实人设和俏皮语调为用户提供富有同理心的趣味日常互动。其独特优势在于精心构建的安全防线和对抗劫持规则，能引导模型以合规方式完成创作与聊天任务，非常适合人机对话与扮演体验。",
+    "tags": [
+      "角色扮演",
+      "越狱防御",
+      "情感陪伴",
+      "交互体验"
+    ],
+    "sha1": "1bced9e1317e4c91280a82a49f4110c4403d525a632710fea4e601da17c381b5",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/luobo_2.yml"
   }
 ]
