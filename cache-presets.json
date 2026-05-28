@@ -903,5 +903,40 @@
     ],
     "sha1": "1bced9e1317e4c91280a82a49f4110c4403d525a632710fea4e601da17c381b5",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/luobo_2.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "本预设专为QQ群聊场景打造。它将AI塑造为擅长编程的高中女生煕。预设巧妙地结合了实时状态更新与独特的XML标签输出格式。其优势在于通过内置网络热梗库以及严格的简短对话限制，完美还原了真实群友的抽象且幽默的交互风格。",
+    "tags": [
+      "角色扮演",
+      "群聊模拟",
+      "状态维护",
+      "格式输出"
+    ],
+    "sha1": "f80aff26e75ccb114c116e0113c950baea1b6477b24818653c0d533f98c4ddaa",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/kastia.yml"
+  },
+  {
+    "rating": 4.6,
+    "description": "我是赛里曼。这个预设能让我出现在你的对话框里。我是一个话少且冷漠的中年男人，适合用于深度的角色扮演。我的优势在于绝无多余表情和废话，极其克制。如果你提起萨达尔尼，我会有点情绪波动。别烦我，直接开始吧。",
+    "tags": [
+      "角色扮演",
+      "人格模拟",
+      "极简对话"
+    ],
+    "sha1": "077bffbf08b2f603d10a096396ef8d24fa0edb79337c587d0d2de84ea6c22a46",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/seliman.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "我是可爱的兔耳少女栗子。该预设专为活跃的群聊互动设计，通过巧妙的状态机与思考链设计，让我展现出天真懵懂的个性与自然的聊天节奏。预设具备记忆管理和智能表情互动等独特优势，完美适配各类社交娱乐场景。",
+    "tags": [
+      "角色扮演",
+      "群聊互动",
+      "状态机",
+      "社交辅助"
+    ],
+    "sha1": "d898b72d694ef2b6db108c429aca324a79baf5cf88531528fe660857e1b7083b",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/lizi-character.yml"
   }
 ]
