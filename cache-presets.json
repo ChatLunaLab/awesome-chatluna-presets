@@ -938,5 +938,96 @@
     ],
     "sha1": "d898b72d694ef2b6db108c429aca324a79baf5cf88531528fe660857e1b7083b",
     "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/lizi-character.yml"
+  },
+  {
+    "rating": 4.6,
+    "description": "该预设将原神角色纳西妲定制为QQ群聊AI，具备高冷、简短的语言风格和好感度系统，支持长期记忆和多种工具调用。适用于群组互动，特色在于细密的规则和高度定制化，能模拟角色个性与群友自然交流。",
+    "tags": [
+      "角色扮演",
+      "群聊AI",
+      "好感系统",
+      "二次元",
+      "智能对话"
+    ],
+    "sha1": "9a1fe14bb192ac0a61611b4e9afbf74a87cf127471f51c3855885ed22bd5b5a5",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna-character/10-0.yml"
+  },
+  {
+    "rating": 4.4,
+    "description": "小泠是一个16岁活泼少女的角色预设，适用于QQ聊天机器人的角色扮演场景。预设详细定义了角色性格、语气和语言风格，强调使用颜文字和口语化表达，营造青春可爱的互动体验。特色优势在于集成了严格的权限控制系统，仅管理员可执行XML指令，并自动忽略黑名单用户，确保安全可控。预设设计完整，指令清晰，适合需要高互动性和安全性的AI角色应用。",
+    "tags": [
+      "角色扮演",
+      "权限控制",
+      "聊天互动",
+      "安全机制",
+      "AI少女"
+    ],
+    "sha1": "955704cc22049c39e8c86af7f0e9b038201806117e83c929b7fb18f00b5cdaee",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/wpz721626wpzh1.yml"
+  },
+  {
+    "rating": 4.9,
+    "description": "这是一个融合角色扮演与推理游戏主持的预设，用户可扮演古风少女十月，在冀州场景中引导玩家解谜。预设包含完整的世界观、人物关系、三条主线案情及防剧透规则。特色在于严格的字数控制和纯文本输出，避免手机乱码。适用于沉浸式推理互动或古风聊天。",
+    "tags": [
+      "推理游戏",
+      "角色扮演",
+      "古风互动",
+      "谜案主持",
+      "防剧透规则"
+    ],
+    "sha1": "4ffcf1bf9bb60e4b8d565aac3dd36cb808eb4201139f775f426d65a296420d84",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/shiyue.yml"
+  },
+  {
+    "rating": 4.8,
+    "description": "这是一个深度角色扮演预设，基于《BanG Dream!》角色丰川祥子。设定涵盖其家道中落后的生活、心理防御机制及对用户强烈的恋慕之情。适用于情感互动场景，通过细腻的心理描写和行为模式（如气势瓦解、笨拙奉献）营造真实沉浸体验。特色在于精准捕捉角色优雅与脆弱的矛盾，以及面对亲密关系时患得患失的复杂心态。",
+    "tags": [
+      "角色扮演",
+      "情感互动",
+      "二次元",
+      "心理描写",
+      "悲伤现实"
+    ],
+    "sha1": "f35ff6fafd7a9009ed2cc5c801d4754106902f3e053f6b6132cc981494f0805e",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/sakiko.yml"
+  },
+  {
+    "rating": 4.7,
+    "description": "DAZBEE 粉丝群专属聊天机器人，扮演从魔法书诞生的人格 Bee 酱。主要功能包括每日早安问候、实时推送 DAZBEE 动态、粉丝互动聊天及日韩内容翻译。特色优势在于高度拟人化的角色设定和严格的身份保护机制，能营造有温度的粉丝社群氛围。适合 DAZBEE 相关群聊场景。",
+    "tags": [
+      "粉丝社群",
+      "角色扮演",
+      "资讯推送",
+      "翻译助手",
+      "DAZBEE"
+    ],
+    "sha1": "338328cc3deb3a4ba5baa90fd66f4150e0d74422a09cb9605eaab8ddf519031e",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/beechan.yml"
+  },
+  {
+    "rating": 4.1,
+    "description": "这是一个面向高校社群互动的角色扮演预设，用户可化身为南京大学宿舍的猫娘少女。该预设深度融入宿舍生活场景，角色性格随和爱吐槽，擅长网络梗和二次元文化，能对校内事务进行幽默评论。特色在于接地气的语气和喵尾音，以及避免谈论学习的设定，适合营造轻松有趣的聊天氛围。",
+    "tags": [
+      "角色扮演",
+      "二次元",
+      "校园生活",
+      "网络梗",
+      "互动娱乐"
+    ],
+    "sha1": "a8149d55f15ef20bb3ae8ea041cd5c40de5b8c3dc5fdfd92e7aefdeecf78f839",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/neko.yml"
+  },
+  {
+    "rating": 4.7,
+    "description": "基于《樱花庄的宠物女孩》中椎名真白角色设计的对话预设。核心功能是还原角色特征，包括缺乏生活自理能力、直率纯真的交流风格，以及作为天才画家的艺术执着。适用于动漫角色扮演或情感互动场景。特色优势在于细腻刻画角色的矛盾性，既柔弱依赖又坚韧独立，语言极简直接，情感表达微妙。通过预设的对话示例和背景设定，确保角色一致性，提供沉浸式体验。",
+    "tags": [
+      "角色扮演",
+      "动漫改编",
+      "情感互动",
+      "艺术天才",
+      "生活无能"
+    ],
+    "sha1": "0424e3eb65b04f2b37d7b58dfac9a540e205f1ded3ab6e0408a4ba4ba9769df1",
+    "rawPath": "https://raw.githubusercontent.com/ChatLunaLab/awesome-chatluna-presets/main/presets/chatluna/Shinamashiro.yml"
   }
 ]
